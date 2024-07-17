@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.headerNosotros {
+    background-color: #2a2a2a;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 40px;
+    height: 300px;
+
+}
+
+.headerNosotros ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.headerNosotros ul li a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+/* estilos titulo nosotros */
+.tituloNosotros {
+    position: relative;
+    margin-top: -55px;
+}
+
+.tituloNosotros h1 {
+    font-family: "Raleway", sans-serif;
+
+
+
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(17, 17, 17, 1) 56%, rgba(0, 0, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.descripcion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.descripcion p {
+    text-align: justify;
+    margin: 30px;
+
+    width: 80%;
+
+}
+
+.fotoPastor {
+    border-radius: 50px 0 50px 0;
+    margin: 30px;
+}
+
+.ttmision {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 30px;
+}
+
+.cuerpoMision {
+    display: flex;
+    gap: 80px;
+
+}
+
+.textoMision {
+    width: 50%;
+    margin: 30px;
+}
+
+.textoMision p {
+    text-align: justify;
+    margin: 30px;
+
+}
+
+.foticos {
+    display: flex;
+}
+
+.foticos img {
+    border-radius: 40px;
+}
+
+.foto1 {
+    position: relative;
+}
+
+.foto2 {
+    position: absolute;
+    margin: 220px 150px;
+}
+
+/* estilos boton para ir a ministerios */
+
+.ministeriosBoton {
+    margin: 300px;
+}
+
+.irMinis {
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.irMinis .span-mother {
+    display: flex;
+    overflow: hidden;
+}
+
+.irMinis:hover .span-mother {
+    position: absolute;
+}
+
+.irMinis:hover .span-mother span {
+    transform: translateY(1.5em);
+}
+
+.irMinis .span-mother span:nth-child(1) {
+    transition: 0.2s;
+}
+
+.irMinis .span-mother span:nth-child(2) {
+    transition: 0.3s;
+}
+
+.irMinis .span-mother span:nth-child(3) {
+    transition: 0.4s;
+}
+
+.irMinis .span-mother span:nth-child(4) {
+    transition: 0.5s;
+}
+
+.irMinis .span-mother span:nth-child(5) {
+    transition: 0.6s;
+}
+
+.irMinis .span-mother span:nth-child(6) {
+    transition: 0.7s;
+}
+
+.irMinis .span-mother span:nth-child(7) {
+    transition: 0.8s;
+}
+
+.irMinis .span-mother2 {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.irMinis .span-mother2 span {
+    transform: translateY(-1.2em);
+}
+
+.irMinis:hover .span-mother2 span {
+    transform: translateY(0);
+}
+
+.irMinis .span-mother2 span {
+    transition: 0.2s;
+}
+
+.irMinis .span-mother2 span:nth-child(2) {
+    transition: 0.3s;
+}
+
+.irMinis .span-mother2 span:nth-child(3) {
+    transition: 0.4s;
+}
+
+.irMinis .span-mother2 span:nth-child(4) {
+    transition: 0.5s;
+}
+
+.irMinis .span-mother2 span:nth-child(5) {
+    transition: 0.6s;
+}
+
+.irMinis .span-mother2 span:nth-child(6) {
+    transition: 0.7s;
+}
+
+.irMinis .span-mother2 span:nth-child(7) {
+    transition: 0.8s;
+}
+
+.irTitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.irMinis {
+    margin: 100px 390px;
+}

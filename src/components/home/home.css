@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.navbar img {
+    width: 150px;
+}
+
+.navbar .nav {
+
+    color: white;
+}
+
+.navbar .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.cardBack {
+    position: relative;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    background-color: #EBB3A9;
+}
+
+.cardpresen {
+    width: 70%;
+    position: relative;
+    background-color: rgb(222, 222, 222);
+    height: 200px;
+    margin: 20px 250px;
+    margin-top: -300PX;
+}
+
+.cardpresen .parrafo {
+    margin: 40px 150px;
+    display: flex;
+    text-align: justify;
+    width: 70%;
+
+}
+
+.botones {
+    margin: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.btn-53 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+        Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+}
+
+.btn-53:disabled {
+    cursor: default;
+}
+
+.btn-53:-moz-focusring {
+    outline: auto;
+}
+
+.btn-53 svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.btn-53 [hidden] {
+    display: none;
+}
+
+.btn-53 {
+    border: 1px solid;
+    border-radius: 999px;
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 900;
+    overflow: hidden;
+    padding: 1rem 4rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn-53 .original {
+    background: #717070;
+    color: #000;
+    display: grid;
+    inset: 0;
+    place-content: center;
+    position: absolute;
+    transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+    transform: translateY(100%);
+}
+
+.btn-53 .letters {
+    display: inline-flex;
+}
+
+.btn-53 span {
+    opacity: 0;
+    transform: translateY(-15px);
+    transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+
+.btn-53 span:nth-child(2n) {
+    transform: translateY(15px);
+}
+
+.btn-53:hover span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-53:hover span:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.btn-53:hover span:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.btn-53:hover span:nth-child(4) {
+    transition-delay: 0.3s;
+}
+
+.btn-53:hover span:nth-child(5) {
+    transition-delay: 0.4s;
+}
+
+.btn-53:hover span:nth-child(6) {
+    transition-delay: 0.5s;
+}
+
+.btn-53:hover span:nth-child(7) {
+    transition-delay: 0.6s;
+}
+
+.btn-53:hover span:nth-child(8) {
+    transition-delay: 0.7s;
+}
+
+.btn-53:hover span:nth-child(9) {
+    transition-delay: 0.8s;
+}
+
+/* reuniones*/
+.ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+
+
+.ag-courses_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    padding: 50px 0;
+}
+
+.ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+
+    margin: 0 15px 30px;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+}
+
+.ag-courses-item_link {
+    display: block;
+    padding: 30px 20px;
+    background-color: #3b3b3bfb;
+    text-decoration: none;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}
+
+.ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+
+    overflow: hidden;
+
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date-box {
+    font-size: 18px;
+    color: #FFF;
+
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date {
+    font-weight: bold;
+    color: #7f7171;
+
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #625F63;
+
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+
+    border-radius: 50%;
+
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #3B5249;
+}
+
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #2B2D42;
+}
+
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #8ca164;
+}
+
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #908852;
+}
+
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: #AA8F66;
+}
+
+
+@media only screen and (max-width: 979px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+
+    .ag-courses-item_title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .ag-courses-item_title {
+        min-height: 72px;
+        line-height: 1;
+
+        font-size: 24px;
+    }
+
+    .ag-courses-item_link {
+        padding: 22px 40px;
+    }
+
+    .ag-courses-item_date-box {
+        font-size: 16px;
+    }
+}
+
+.reuniones h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.videoBienvenidos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videoBienvenidos .tituloBienvenidos {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    width: 15%;
+}
+
+.videoBienvenidos .tituloBienvenidos h4 {
+    font-weight: 400;
+}
+
+.videoBienvenidos .videoBienvenida .video {
+    border-radius: 60px 0 60px 0;
+}
+
+article {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+article a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+}
+
+article h2 {
+    margin: 0 0 18px 0;
+
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+article img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+    padding: 24px;
+}
+
+article a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #6B030A;
+}
+
+article a:focus {
+    outline: 1px dotted #6B030A;
+}
+
+article a .icon {
+    min-width: 24px;
+    width: 20px;
+    height: 24px;
+    margin-left: 0px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+}
+
+.video-container iframe {
+    margin-left: 380px;
+}
+
+.video-container h3 {
+    text-align: center;
+}
+
+article:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #6B030A;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(24, 16, 16, 1.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+
+.articles {
+    display: grid;
+    max-width: 1100px;
+    margin-inline: auto;
+    padding-inline: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+@media screen and (max-width: 960px) {
+    article {
+        container: card/inline-size;
+
+    }
+
+    .article-body .parrafo {
+        display: none;
+    }
+}
+
+@container card (min-width: 380px) {
+
+    .article-wrapper {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 6px;
+    }
+
+    .article-body {
+        padding-left: 0;
+
+    }
+
+    figure {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    figure img {
+        height: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.novedades .tituloNovedades {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+
+}
+
+.novedades .tituloNovedades .nove {
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.infoMinisterios {
+    width: auto;
+    margin: 40px;
+    height: 300px;
+    border-radius: 70px 0 70px 0;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infoMinisterios p {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 60px;
+}
+
+
+.botoncito {
+    position: relative;
+    margin: auto;
+    background: none;
+    border: none;
+    padding: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+.botoncito:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #6B030A;
+    width: 56px;
+    height: 56px;
+    transition: all 0.5s ease;
+}
+
+.botoncito span {
+    position: relative;
+    font-size: 15px;
+
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.botoncito svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+
+.botoncito:hover:before {
+    width: 100%;
+    background: #733d41;
+}
+
+.botoncito:hover svg {
+    transform: translateX(0);
+}
+
+.botoncito:active {
+    transform: scale(0.96);
+}
+
+.formulariosEscPedidos {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.ttForm {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 50px;
+    align-items: center;
+}
+
+.formulariosEscPedidos .cardForm {
+    display: flex;
+    gap: 300px;
+    text-align: center;
+    margin: 50px;
+    padding: 100px 200px;
+    background-color: #2a2a2a;
+    border-radius: 50px 0 50px 0;
+    box-shadow: rgba(24, 16, 16, 1.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.formulariosEscPedidos .cardForm .botonForm .botoncitoForm {
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 30px;
+    border: none;
+    justify-content: center;
+}
+
+.formulariosEscPedidos .cardForm .cardFormHeader .tituloFormCard {
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.canales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 200px;
+    margin-bottom: 80px;
+
+}
+
+
+.canales-ver {
+    text-align: center;
+
+}
+
+.canales-ver img {
+    width: 90px;
+}
+
+.canales-ver h6 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-ver {
+    background-color: #6B030A;
+    color: #fff;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+
+
+.btn-ver:hover {
+
+    background-color: #6b030aca;
+}
+.canales-ver{
+    border: white;
+}

@@ -1,0 +1,70 @@
+.bannerHombres {
+    height: 60vh;
+    background: url('C:\Users\agosn\citaNuevo\citanew\public\DSC_1820.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -40px;
+}
+
+.parallax-innerHombres {
+    padding: 20% 0;
+    width: 80%;
+    display: flex;
+}
+.text{
+    width: 90%;
+    text-align: justify;
+   margin: 30px auto;
+}
+/* Estilo predeterminado para las tarjetas */
+.actividades{
+    display: flex;
+    justify-content: center;
+}
+.titulo h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 200;
+    margin: 30px;
+}
+.card {
+
+    width: 340px; /* Ancho de la tarjeta */
+
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow: hidden; /* Ocultar desbordamiento */
+    margin: 16px; /* Margen */
+    transition: transform 0.2s; /* Transición suave al pasar el mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.card img {
+    width: 130%; /* Ancho completo de la imagen */
+    height: 400px; /* Altura automática para mantener la proporción */
+    display: block; /* Bloque para eliminar espacios en línea */
+}
+
+/* Opcional: estilo para contenido dentro de la tarjeta */
+.card-content {
+    padding: 16px; /* Espaciado interno */
+    font-family: Arial, sans-serif; /* Fuente */
+    color: #333; /* Color del texto */
+}
+
+.card-content h2 {
+    margin: 0 0 16px 0; /* Margen */
+    font-size: 1.5em; /* Tamaño de fuente */
+}
+
+.card-content p {
+    margin: 0; /* Margen */
+    font-size: 1em; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+}

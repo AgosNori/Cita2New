@@ -1,0 +1,255 @@
+.fotoprincipalMinis {
+    margin-top: -0px;
+    height: 80vh;
+    background: url('C:\Users\agosn\citaNuevo\citanew\public\DSC_1820.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+  }
+  
+  .parallax-innerMinis {
+  
+    padding: 18em 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parallax-innerMinis h2 {
+    margin: 10px 3em;
+    font-size: 30px;
+    color: #fff;
+    text-align: end;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  
+  .vertical-line {
+    border-left: 1px solid black;
+  }
+  
+  .logo-ministerios {
+    width: 250px;
+    height: auto;
+  }
+  
+  .nav-ministerio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+  }
+  
+  .referente-minist {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .item-ministerio {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .referente-minist:last-child {
+    margin-left: auto;
+  }
+  
+  .referente-ministerio .role {
+    width: 100%;
+  }
+  
+  .item-ministerio li {
+    margin-left: 20px;
+  }
+  
+  .item-ministerio li a {
+  
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .item-ministerio li a img {
+    margin-right: 5px;
+  }
+  
+  .ref-name,
+  .role,
+  .btn-ministerios {
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .btn-ministerios {
+    align-items: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #cccccc;
+  }
+  
+  .banner-minsterio {
+    width: 100%;
+    height: 650px;
+  }
+  
+  .cont-ministerios {
+    background-color: #D9D2B6;
+   
+  }
+  
+  .texto {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: gainsboro;
+  }
+  
+  .ref-name {
+    color: black;
+    margin: 20px;
+    margin-left: 60px;
+  }
+  
+  .enlace {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .enlace:hover {
+    color: #cccccc;
+  }
+  
+  .referente-minist {
+    display: flex;
+  
+  }
+  
+  .minis-image {
+    margin: 20px;
+    width: 40%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: #ffffff;
+    margin-right: 60px;
+  }
+  
+  
+  .footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn-ministerios {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .btn-ministerios:hover {
+    background-color: rgba(207, 199, 199, 0.7);
+  }
+  
+  .referente-ministerio h5 {
+  
+    text-align: center;
+  }
+  
+  .referente-ministerio p {
+    text-align: center;
+  }
+  
+  .btnMinis {
+    display: flex;
+  
+  }
+  .ref-name{
+   text-align: center;
+   font-weight:300;
+  }
+h5{
+    font-weight: 200;
+}
+.horario{
+    font-weight: 200;
+}
+  .referente-ministerio .role {
+    text-align: justify;
+    margin: 30px;
+  }
+  
+  .btnMinis button {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .parallax-innerMinis h2 {
+      margin: 10px 3em;
+      font-size: 20px;
+      color: #fff;
+      text-align: end;
+      font-weight: 100;
+      letter-spacing: 1px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .referente-minist {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .minis-image {
+      margin: 40px;
+      width: 100%;
+  
+      height: 200px;
+      border-radius: 20px;
+      box-shadow: #ffffff;
+  
+    }
+  
+    .ref-name,
+    .role,
+    .referente-ministerio p {
+      text-align: center;
+      margin: 10px;
+    }
+  
+    .role {
+      margin-top: 0;
+    }
+  }
+  .minisTT{
+    font-size: 50px;
+    padding: 60px;
+    font-weight:300;
+  }

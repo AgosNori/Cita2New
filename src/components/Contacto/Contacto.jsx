@@ -93,7 +93,7 @@ const Contacto = () => {
           <form action="#" ref={refForm} onSubmit={handleSubmitContacto}>
             <h1 className='tituloForm'>Escríbenos</h1>
 
-            <span>Dejanos tus datos y un mensaje</span>
+            <span className='subtitulo'>Dejanos tus datos y un mensaje</span>
 
             <input
               type="text"
@@ -124,14 +124,14 @@ const Contacto = () => {
             ></textarea>
 
 
-            <button type="submit">Enviar</button>
+            <button type="submit" className='botonEnviar'>Enviar</button>
           </form>
         </div>
         <div className="form-container sign-in-container">
           <form action="#" ref={refFormM} onSubmit={handleSubmitMotivos} >
             <h1 className='tituloForm'>Tus motivos de oración</h1>
 
-            <span>O si quieres dar gracias</span>
+            <span className='subtitulo'>O si quieres dar gracias</span>
             <input
               type="text"
               name="name"
@@ -153,20 +153,20 @@ const Contacto = () => {
               rows="2"
 
             ></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" className='botonEnviar'>Enviar</button>
           </form>
         </div>
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
               <h1>Pedidos de oración</h1>
-              <p className='p'>Si tienes algún pedido de oración o simplemente contarnos que hizo Dios en tu vida, estaremos muy feliz por leerlo.</p>
-              <button className="ghost" id="signIn" onClick={handleIsPedido}>Pedido </button>
+              <p className='paraffo'>Si tienes algún pedido de oración o simplemente contarnos que hizo Dios en tu vida, estaremos muy feliz por leerlo.</p>
+              <button className="ghost botonEnviar" id="signIn" onClick={handleIsPedido}>Pedido </button>
             </div>
             <div className="overlay-panel overlay-right">
               <h1>¡Bienvenido!</h1>
-              <p className='p'>Si es tu primera vez , nos gustaria que dejes tus datos y un pedido de oración para poder orar.</p>
-              <button className="ghost" id="signUp" onClick={handleIsContact}>Contact</button>
+              <p className='paraffo'>Si es tu primera vez , nos gustaria que dejes tus datos y un pedido de oración para poder orar.</p>
+              <button className="ghost botonEnviar" id="signUp" onClick={handleIsContact}>Contact</button>
             </div>
           </div>
         </div>

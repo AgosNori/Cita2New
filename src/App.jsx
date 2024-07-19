@@ -6,6 +6,7 @@ import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
 import Hombres from './components/hombres/hombre';
 import Ministerios from './components/Ministerios/Ministerios';
+import Mujeres from './components/Mujeres/Mujeres';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/contacto' element={<Contacto/>}/>
           <Route path='/hombres' element={<Hombres/>}/>
           <Route path='/ministerios' element={<Ministerios/>}/>
+          <Route path='/mujeres' element={<Mujeres/>}/>
         </Routes>
       </BrowserRouter>
 

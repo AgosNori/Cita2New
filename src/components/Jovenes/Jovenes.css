@@ -1,0 +1,108 @@
+.fotoprincipalJovenes {
+    margin-top: 0px;
+    height: 80vh;
+    background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\Jovenes1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner-Jovenes {
+    padding: 20% 0;
+    width: 50%;
+    display: flex;
+}
+
+.parallax-inner-Jovenes h2 {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 30px;
+    text-align: end;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.descJovenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    color: #333;
+}
+
+.descJovenes p {
+    max-width: 80%;
+}
+
+
+
+
+
+.cuadro-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333447;
+    padding: 20px;
+}
+
+.img-cuadro {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .texto-bienvenida-jovenes {
+        font-size: 2rem;
+    }
+
+    .img-jov {
+        max-height: 400px;
+    }
+
+    .ados-imagenes,
+    .pre-imagenes,
+    .cuadro-imagenes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-ados,
+    .img-pre,
+    .img-cuadro {
+        width: 80%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .texto-bienvenida-jovenes {
+        font-size: 1.5rem;
+
+    }
+
+    .texto-bienvenida-jovenes {
+        display: none;
+
+    }
+
+    .img-jov {
+        max-height: 300px;
+    }
+
+    .parallax-inner-Jovenes h2 {
+        margin: 120px 40px;
+        font-size: 40px;
+
+    }
+}

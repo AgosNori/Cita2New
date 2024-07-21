@@ -33,7 +33,7 @@ function Home() {
             <div className='botones'>
                 <div className='btnUbi'>
                     <button className="btn-53">
-                        <div className="original">UBICACIÓN<FontAwesomeIcon icon={faLocationDot} /></div>
+                        <div className="original">UBICACIÓN</div>
 
                         <div className="letters">
 
@@ -52,7 +52,7 @@ function Home() {
                 </div>
                 <div className='btnSembrar'>
                     <button className="btn-53">
-                        <div className="original">SEMBRAR<FontAwesomeIcon icon={faSeedling} /></div>
+                        <div className="original">SEMBRAR</div>
                         <div className="letters">
 
                             <span>S</span>

@@ -1,4 +1,4 @@
-import "./citakids.css";
+import "./Citakids.css";
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 

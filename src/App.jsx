@@ -7,6 +7,8 @@ import Contacto from './components/Contacto/Contacto';
 import Hombres from './components/hombres/hombre';
 import Ministerios from './components/Ministerios/Ministerios';
 import Mujeres from './components/Mujeres/Mujeres';
+import NavBorde from './components/NavBorde/NavBorde';
+import FormCampa from './components/FormCampa/FormCampa';
 
 function App() {
 
@@ -16,13 +18,18 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/nosotros' element={<Nosotros/>}/>
-          <Route path='/contacto' element={<Contacto/>}/>
-          <Route path='/hombres' element={<Hombres/>}/>
-          <Route path='/ministerios' element={<Ministerios/>}/>
-          <Route path='/mujeres' element={<Mujeres/>}/>
+          <Route path='/nosotros' element={<Nosotros />} />
+          <Route path='/contacto' element={<Contacto />} />
+          <Route path='/hombres' element={<Hombres />} />
+          <Route path='/ministerios' element={<Ministerios />} />
+          <Route path='/mujeres' element={<Mujeres />} />
+          <Route path='/nav' element={<NavBorde />} />
+          <Route path='/formcampa' element={<>
+            < NavBorde /> <FormCampa />
+          </>
+          } />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter >
 
     </>
   )

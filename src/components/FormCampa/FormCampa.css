@@ -1,0 +1,63 @@
+.formularioCampa {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+span {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    font-family: sans-serif; /* Para asegurar que el date input tenga un buen estilo en todos los navegadores */
+}
+
+input::placeholder, select {
+    color: #888;
+}
+
+select.select-cert {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+select.select-cert:focus, input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .formularioCampa {
+        padding: 15px;
+    }
+}

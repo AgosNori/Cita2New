@@ -1,0 +1,144 @@
+.img-nuevo {
+    width: 100%;
+    height: auto;
+
+}
+
+.soy-nuevo {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-soynuevo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.item-soynuevo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.item-soynuevo li {
+    margin-left: 20px;
+}
+
+.item-soynuevo li a {
+
+    text-decoration: none;
+    color: #000;
+}
+
+.item-soynuevo li a img {
+    margin-right: 5px;
+}
+
+.logo-soy-nuevo {
+    width: 150px;
+    height: auto;
+}
+
+.frm-contacto {
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #d4cece;
+}
+
+.frm label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.frm label span {
+    flex: 0 0 40%;
+    margin-right: 20px;
+}
+
+.frm input {
+    width: 100%;
+    padding: 5px;
+}
+
+.btn-frm-contacto {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.material-lectura {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn-soyNuevo {
+    flex: 1 0 200px;
+    max-width: 200px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.cardSoyNuevo {
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardSoyNuevo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardSoyNuevo .btn-soyNuevo {
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cardSoyNuevo .btn-soyNuevo:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bienvenida {
+    margin-top: -0px;
+    height: 80vh;
+    background: url('img/imagenes/sembrar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-innerBienvenida {
+    padding: 20% 0;
+    width: 50%;
+    display: flex;
+}

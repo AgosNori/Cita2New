@@ -1,0 +1,100 @@
+.calendario-container {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #fff6d9;
+  }
+  
+  .calendario-container .grid {
+	width: 100%;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+  }
+  
+  .calendario-container .item1 {
+	grid-column: span 2;
+  }
+  
+  .calendario-container .cardC {
+	padding: 10px;
+	background: #c57b57;
+	border-radius: .7em;
+	opacity: 0.6;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+	transition-property: background, transform, color, opacity;
+	position: relative;
+  }
+  
+  .calendario-container .cardC:not(:empty):hover,
+  .calendario-container .cardC:not(:empty):focus {
+	z-index: 1;
+	color: #fff;
+	background: #6b030a;
+	opacity: 1;
+	transform: scale(1) rotateZ(5deg);
+	cursor: pointer;
+  }
+  
+  .calendario-container .cardC:not(:empty):before,
+  .calendario-container .cardC:not(:empty):after {
+	content: "";
+	position: absolute;
+	border-radius: .7em;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: opacity 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  
+  .calendario-container .cardC:not(:empty):before {
+	box-shadow: -2px 2px 8px 2px hsla(0, 0%, 0%, 0.2);
+  }
+  
+  .calendario-container .cardC:not(:empty):after {
+	box-shadow: -20px 20px 12px 6px hsla(0, 0%, 0%, 0.2);
+	opacity: 0;
+  }
+  
+  .calendario-container h1,
+  .calendario-container h2,
+  .calendario-container h3,
+  .calendario-container h4,
+  .calendario-container h5 {
+	margin: 2.75rem 0 1.05rem;
+	line-height: 1.2;
+	font-family: "Jost", sans-serif;
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.calendario-container .grid {
+	  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+  
+	.calendario-container .item1 {
+	  grid-column: span 1;
+	}
+  
+	.calendario-container .cardC {
+	  font-size: 0.9em;
+	}
+  }
+  
+  @media only screen and (max-width: 480px) {
+	.calendario-container .grid {
+	  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+  
+	.calendario-container .cardC {
+	  font-size: 0.8em;
+	}
+  }

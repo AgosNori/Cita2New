@@ -9,6 +9,7 @@ import Ministerios from './components/Ministerios/Ministerios';
 import Mujeres from './components/Mujeres/Mujeres';
 import NavBorde from './components/NavBorde/NavBorde';
 import FormCampa from './components/FormCampa/FormCampa';
+import Calendario from './components/Calendario/Calendario';
 
 function App() {
 
@@ -24,10 +25,9 @@ function App() {
           <Route path='/ministerios' element={<Ministerios />} />
           <Route path='/mujeres' element={<Mujeres />} />
           <Route path='/nav' element={<NavBorde />} />
-          <Route path='/formcampa' element={<>
-            < NavBorde /> <FormCampa />
-          </>
+          <Route path='/formcampa' element={<>< NavBorde /> <FormCampa /></>
           } />
+          <Route path='/calendario' element={<Calendario />} />
         </Routes>
       </BrowserRouter >
 

@@ -18,6 +18,7 @@ import Matrimonios from './components/Matrimonios/Matrimonios';
 import Musicos from './components/Musicos/Musicos';
 import SoyNuevo from './components/SoyNuevo/SoyNuevo';
 import Nav from './components/NavPrincipal/NavPrincipal';
+import NavSecundario from './components/NavSecundario/NavSecundario';
 
 function App() {
   const contactoImages = [];
@@ -73,7 +74,7 @@ function App() {
         <Route path="/" element={<><Nav/> <NavBorde/><Home /> </>} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<><NavBorde/> <Contacto /></>} />
-        <Route path="/hombres" element={<Hombres />} />
+        <Route path="/hombres" element={<><NavSecundario/><NavBorde/><Hombres /></>} />
         <Route path="/ministerios" element={<Ministerios />} />
         <Route path="/mujeres" element={<Mujeres />} />
         <Route path="/nav" element={<NavBorde />} />

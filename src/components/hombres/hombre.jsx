@@ -2,30 +2,8 @@ import './hombres.css'
 function Hombres() {
     return (
         <div className="hombresPage">
-            <div className='headerNosotros'>
-                <div className='logo'>
-                    <img src='public\Logo RGB BLANCO.png' width="150"></img>
-                </div>
-                <div className='nav'>
-                    <ul>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className='tituloNosotros'>
-                <h1>Discipulado de Hombres</h1>
-            </div>
+           
+            
             <div className="aboutHombres">
                 <div className='bannerHombres'>
                     <div className="parallax-innerHombres">

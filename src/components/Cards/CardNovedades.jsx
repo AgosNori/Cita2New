@@ -44,7 +44,7 @@ function CardNovedades() {
         <article>
           <div className="article-wrapper">
             <figure>
-              <img src="img\imagenes\Card3.jpg" alt="" />
+              <img src="img\imagCard3.jpg" alt="" />
             </figure>
             <div className="article-body">
               <h2>Titulo </h2>

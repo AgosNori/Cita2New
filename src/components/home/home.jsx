@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className='homePage'>
-            <div className='navbar'>
+            {/*<div className='navbar'>
                 <div className='logo'>
                     <img src='./Logo RGB BLANCO.png'></img>
                 </div>
@@ -14,12 +14,14 @@ function Home() {
                         <li><Link to="/nosotros">Nosotros</Link></li>
                         <li><Link to="/contacto">Contacto</Link></li>
                         <li><Link to="/hombres">Hombres</Link></li>
+                        <li><Link to="/mujeres"></Link></li>
+                        li
                     </ul>
                 </div>
             </div>
             <div className='banner'>
                 <img src='./sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
-            </div>
+            </div>*/}
             <div className='presentacion'>
                 <div className='cardBack'>
                 </div>
@@ -282,3 +284,8 @@ function Home() {
 }
 
 export default Home
+
+
+
+
+

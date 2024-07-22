@@ -34,7 +34,7 @@ function Campamento({ campamentoImages }) {
         <div className="imagen-conta-campamento">
           <img
             className="img-campa-campamento"
-            src="public\img\Fotos Campamento\Campamento1.jpg"
+            src="./Campamento1.jpg"
             alt="Campamento de Verano" width="100%" height="650px"
           />
           <div className="texto-sobre-imagen-campamento">

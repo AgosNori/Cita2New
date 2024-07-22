@@ -7,33 +7,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-.navbar {
-    background-color: #2a2a2a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-}
-
-.navbar img {
-    width: 150px;
-}
-
-.navbar .nav {
-
-    color: white;
-}
-
-.navbar .nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
 
 .cardBack {
     position: relative;
-    margin: 40px;
+    margin: 100px;
     width: 300px;
+    margin-top: 660px;
     height: 300px;
     background-color: #EBB3A9;
 }
@@ -42,9 +21,10 @@
     width: 70%;
     position: relative;
     background-color: rgb(222, 222, 222);
-    height: 200px;
-    margin: 20px 250px;
-    margin-top: -300PX;
+    height: 320px;
+    margin:20px 250px;
+    margin-top: -340PX;
+
 }
 
 .cardpresen .parrafo {
@@ -52,6 +32,8 @@
     display: flex;
     text-align: justify;
     width: 70%;
+    padding: 40px;
+    font-size: 15px;
 
 }
 
@@ -112,14 +94,15 @@
     display: flex;
     font-weight: 900;
     overflow: hidden;
-    padding: 0.5rem 4rem;
+    padding: 0.4rem 4rem;
     position: relative;
     text-transform: uppercase;
 }
 
 .btn-53 .original {
-    background: #717070;
-    color: #000;
+    background: #6B030A;
+    color: #ffffff;
+    font-weight: 200;
     display: grid;
     inset: 0;
     place-content: center;
@@ -148,6 +131,7 @@
 .btn-53:hover span {
     opacity: 1;
     transform: translateY(0);
+    font-weight: 300;
 }
 
 .btn-53:hover span:nth-child(2) {

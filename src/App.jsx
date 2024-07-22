@@ -17,6 +17,7 @@ import Jovenes from './components/Jovenes/Jovenes';
 import Matrimonios from './components/Matrimonios/Matrimonios';
 import Musicos from './components/Musicos/Musicos';
 import SoyNuevo from './components/SoyNuevo/SoyNuevo';
+import Nav from './components/NavPrincipal/NavPrincipal';
 
 function App() {
   const contactoImages = [];
@@ -69,9 +70,9 @@ function App() {
   return (
     <BrowserRouter basename="/Cita2New">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<><Nav/> <NavBorde/><Home /> </>} />
         <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/contacto" element={<><NavBorde/> <Contacto /></>} />
         <Route path="/hombres" element={<Hombres />} />
         <Route path="/ministerios" element={<Ministerios />} />
         <Route path="/mujeres" element={<Mujeres />} />
@@ -86,6 +87,7 @@ function App() {
         <Route path="/matrimonios" element={<Matrimonios />} />
         <Route path="/musicos" element={<Musicos images={musicosImages} /> } />
         <Route path="/soynuevo" element={<SoyNuevo />} />
+        <Route path='/navprincipal' element={<Nav/>}/>
       </Routes>
     </BrowserRouter>
   );

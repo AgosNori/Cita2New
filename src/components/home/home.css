@@ -226,7 +226,7 @@
 
     overflow: hidden;
 
-    font-weight: bold;
+    font-weight: 200;
     font-size: 30px;
     color: #FFF;
 
@@ -287,7 +287,9 @@
 .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
     background-color: #AA8F66;
 }
-
+.more{
+    color: black;
+}
 
 @media only screen and (max-width: 979px) {
     .ag-courses_item {
@@ -338,7 +340,10 @@
 
 .videoBienvenidos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    margin:auto 120px;
+    gap: 300px;
 }
 
 .videoBienvenidos .tituloBienvenidos {
@@ -352,8 +357,9 @@
     font-weight: 400;
 }
 
-.videoBienvenidos .videoBienvenida .video {
+.videoBienvenidos .videoBienvenida video {
     border-radius: 60px 0 60px 0;
+    width: 70%;
 }
 
 article {

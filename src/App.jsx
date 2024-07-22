@@ -67,7 +67,7 @@ function App() {
   ];
 
   return (
-    <BrowserRouter basename="/Cita2New/">
+    <BrowserRouter basename="/Cita2New">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<Nosotros />} />

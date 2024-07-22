@@ -1,5 +1,5 @@
 import './home.css';
-
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -10,11 +10,10 @@ function Home() {
                 </div>
                 <div className='nav'>
                     <ul>
-                        <li><a href="#"></a>Home</li>
-                        <li><a href="/Cita2New/nosotros">Nosotros</a>
-                        </li>
-                        <li><a href="#"></a>Home</li>
-                        <li><a href="#"></a>Home</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/nosotros">Nosotros</Link></li>
+                        <li><Link to="/contacto">Contacto</Link></li>
+                        <li><Link to="/hombres">Hombres</Link></li>
                     </ul>
                 </div>
             </div>

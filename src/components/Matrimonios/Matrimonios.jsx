@@ -7,7 +7,7 @@ function Matrimonios() {
       <div className="BannerMatrimonios">
         <div className="fotoprincipalMatrimonios">
           <div className="parallax-inner-Matrimonios">
-            <h2>Ministerios de Matrimonios</h2>
+            <h2 className="descMatri">Ministerios de Matrimonios</h2>
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ function Matrimonios() {
       </div>
       <div className="lugar-horario">
         <div className="horarios-matrimonios">
-          <h3>Nuestros Horarios de Reunión.</h3>
+          <h3 className="tituloMatri">Nuestros Horarios de Reunión.</h3>
           <div className="tablaM">
             <div className="filaM">
               <div className="columnaM">Días</div>
@@ -57,10 +57,7 @@ function Matrimonios() {
         </div>
         <div className="lugar-matrimonio">
           <h3>Cómo llegar </h3>
-          <img
-            className="como-llegar"
-            src="public/img/iconos/locate_gps_navigation_pin_point_location_icon-icons.com_59906.png"
-          ></img>
+          <div class="loaderLocation"></div>
           <div className="boton-matrimonio">
             <Link
               href="https://www.google.com/maps/place/Iglesia+Cita+Con+La+Vida/@-31.340506,-63.9610832,17z/data=!4m7!3m6!1s0x9432eabea42245b1:0x3d408621c6ce3156!4b1!8m2!3d-31.3432517!4d-63.9398718!16s%2Fg%2F11bwylz14v?entry=ttu"

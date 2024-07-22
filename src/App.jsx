@@ -71,12 +71,12 @@ function App() {
   return (
     <BrowserRouter basename="/Cita2New">
       <Routes>
-        <Route path="/" element={<><Nav/> <NavBorde/><Home /> </>} />
+        <Route path="/" element={<><Nav /> <NavBorde /><Home /> </>} />
         <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/contacto" element={<><NavBorde/> <Contacto /></>} />
-        <Route path="/hombres" element={<><NavSecundario/><NavBorde/><Hombres /></>} />
+        <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
+        <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
         <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/mujeres" element={<><NavSecundario/><Mujeres /></>} />
+        <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
         <Route path="/nav" element={<NavBorde />} />
         <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
         <Route path="/calendario" element={<Calendario />} />
@@ -85,10 +85,10 @@ function App() {
         <Route path="/citakids" element={<Citakids images={citakidsImages} />} />
         <Route path="/galeria" element={<Gallery />} />
         <Route path="/jovenes" element={<Jovenes images={jovenesImages} />} />
-        <Route path="/matrimonios" element={<Matrimonios />} />
-        <Route path="/musicos" element={<Musicos images={musicosImages} /> } />
+        <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
+        <Route path="/musicos" element={<Musicos images={musicosImages} />} />
         <Route path="/soynuevo" element={<SoyNuevo />} />
-        <Route path='/navprincipal' element={<Nav/>}/>
+        <Route path='/navprincipal' element={<Nav />} />
       </Routes>
     </BrowserRouter>
   );

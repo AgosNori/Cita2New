@@ -7,7 +7,7 @@ function Home() {
         <div className='homePage'>
             <div className='navbar'>
                 <div className='logo'>
-                    <img src='public\Logo RGB BLANCO.png'></img>
+                    <img src='./Logo RGB BLANCO.png'></img>
                 </div>
                 <div className='nav'>
                     <ul>
@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
             <div className='banner'>
-                <img src='public\sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
+                <img src='./sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
             </div>
             <div className='presentacion'>
                 <div className='cardBack'>
@@ -149,7 +149,7 @@ function Home() {
                     <h4>Mensaje de bienvenida</h4>
                 </div>
                 <div className='videoBienvenida'>
-                    <video controls autoPlay loop className='video' src='public\kidsabados.mp4' width="800"></video>
+                    <video controls autoPlay loop className='video' src='./kidsabados.mp4' width="800"></video>
                 </div>
             </div>
             <div className='novedades'>
@@ -162,7 +162,7 @@ function Home() {
                         <article>
                             <div className="article-wrapper">
                                 <figure>
-                                    <img src="public\fotoNovedades.jpeg" alt="" />
+                                    <img src="./fotoNovedades.jpeg" alt="" />
                                 </figure>
                                 <div className="article-body">
                                     <h2>Título </h2>
@@ -180,7 +180,7 @@ function Home() {
                         <article>
                             <div className="article-wrapper">
                                 <figure>
-                                    <img src="public\fotoNovedades.jpeg" alt="" />
+                                    <img src="./fotoNovedades.jpeg" alt="" />
                                 </figure>
                                 <div className="article-body">
                                     <h2>Título</h2>
@@ -199,7 +199,7 @@ function Home() {
                         <article>
                             <div className="article-wrapper">
                                 <figure>
-                                    <img src="public\fotoNovedades.jpeg" alt="" />
+                                    <img src="./fotoNovedades.jpeg" alt="" />
                                 </figure>
                                 <div className="article-body">
                                     <h2>Titulo </h2>
@@ -262,7 +262,7 @@ function Home() {
                 <div className="canales">
                     <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
                     <div className="canales-ver">
-                        <img src="public\iconos\iconmonstr-video-camera-12-240.png" className="" width="90px"></img>
+                        <img src="./iconos/iconmonstr-video-camera-12-240.png" className="" width="90px"></img>
                         <h6> Volve a revivir la palabra por nuestro canal.</h6>
 
                         <button href="https://www.youtube.com/@citaconlavidamontecristo3858" className="btn-ver">
@@ -270,7 +270,7 @@ function Home() {
                         </button>
                     </div>
                     <div className="canales-ver">
-                        <img src="public\iconos\galeria.png" className=""></img>
+                        <img src="./iconos/galeria.png" className=""></img>
                         <h6>Nuestra Galería de imágenes.</h6>
                         <button href="/galeria" className="btn-ver">
                             Ver

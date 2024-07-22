@@ -70,7 +70,7 @@ function App() {
     <BrowserRouter basename="/Cita2New/">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/Cita2New/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/hombres" element={<Hombres />} />
         <Route path="/ministerios" element={<Ministerios />} />

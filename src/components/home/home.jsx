@@ -1,6 +1,5 @@
 import './home.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faSeedling } from '@fortawesome/free-solid-svg-icons'
+
 
 function Home() {
     return (

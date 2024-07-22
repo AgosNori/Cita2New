@@ -1,7 +1,6 @@
-
-import './App.css'
-import Home from './components/home/home'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css';
+import Home from './components/home/home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
 import Hombres from './components/hombres/hombre';
@@ -68,31 +67,28 @@ function App() {
   ];
 
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/nosotros' element={<Nosotros />} />
-          <Route path='/contacto' element={<Contacto />} />
-          <Route path='/hombres' element={<Hombres />} />
-          <Route path='/ministerios' element={<Ministerios />} />
-          <Route path='/mujeres' element={<Mujeres />} />
-          <Route path='/nav' element={<NavBorde />} />
-          <Route path='/formcampa' element={<>< NavBorde /> <FormCampa /></>} />
-          <Route path='/calendario' element={<Calendario />} />
-          <Route path='/campamento' element={<Campamento campamentoImages={campamentoImages} />} />
-          <Route path='/cardnovedades' element={<CardNovedades />} />
-          <Route path='/citakids' element={<Citakids images={citakidsImages} />} />
-          <Route path='/galeria' element={<Gallery />} />
-          <Route path='/jovenes' element={<Jovenes images={jovenesImages} />}/>
-          <Route path='/matrimonios' element={<Matrimonios/>}/>
-          <Route path='/musicos' element={<Musicos/>}/>
-          <Route path='/soynuevo' element={<SoyNuevo/>}/>
-        </Routes>
-      </BrowserRouter >
-
-    </>
-  )
+    <BrowserRouter basename="/Cita2New/">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/hombres" element={<Hombres />} />
+        <Route path="/ministerios" element={<Ministerios />} />
+        <Route path="/mujeres" element={<Mujeres />} />
+        <Route path="/nav" element={<NavBorde />} />
+        <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
+        <Route path="/calendario" element={<Calendario />} />
+        <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
+        <Route path="/cardnovedades" element={<CardNovedades />} />
+        <Route path="/citakids" element={<Citakids images={citakidsImages} />} />
+        <Route path="/galeria" element={<Gallery />} />
+        <Route path="/jovenes" element={<Jovenes images={jovenesImages} />} />
+        <Route path="/matrimonios" element={<Matrimonios />} />
+        <Route path="/musicos" element={<Musicos images={musicosImages} /> } />
+        <Route path="/soynuevo" element={<SoyNuevo />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

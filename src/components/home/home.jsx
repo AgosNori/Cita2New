@@ -11,7 +11,8 @@ function Home() {
                 <div className='nav'>
                     <ul>
                         <li><a href="#"></a>Home</li>
-                        <li><a href="#"></a>Home</li>
+                        <li><a href="/Cita2New/nosotros">Nosotros</a>
+                        </li>
                         <li><a href="#"></a>Home</li>
                         <li><a href="#"></a>Home</li>
                     </ul>

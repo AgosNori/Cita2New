@@ -57,7 +57,7 @@ function Matrimonios() {
         </div>
         <div className="lugar-matrimonio">
           <h3>Cómo llegar </h3>
-          <div class="loaderLocation"></div>
+          <div className="loaderLocation"></div>
           <div className="boton-matrimonio">
             <Link
               href="https://www.google.com/maps/place/Iglesia+Cita+Con+La+Vida/@-31.340506,-63.9610832,17z/data=!4m7!3m6!1s0x9432eabea42245b1:0x3d408621c6ce3156!4b1!8m2!3d-31.3432517!4d-63.9398718!16s%2Fg%2F11bwylz14v?entry=ttu"
@@ -73,21 +73,21 @@ function Matrimonios() {
       </div>
       <section className="recursos-matrimonios">
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="public\img\imagenes\Matrimonios2.webp"></img>
+          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://www.youtube.com/@citaconlavidamontecristo3858" className="btn-card-matrimonio">
             Video.
           </Link>
         </div>
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="public\img\imagenes\Matrimonios3.jpg"></img>
+          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://www.biblegateway.com/?language=es" className="btn-card-matrimonio">
             Biblia.
           </Link>
         </div>
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="public\img\imagenes\Matrimonios4.jpg"></img>
+          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://libreriapeniel.com/?s=matrimonio&post_type=product&type_aws=true" className="btn-card-matrimonio">
             Libros.

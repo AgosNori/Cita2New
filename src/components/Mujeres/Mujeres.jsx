@@ -7,7 +7,7 @@ function Mujeres() {
     <div className='containerM'>
       <div className="fotoMujeres">
         <div className="parallaxMujeres">
-          <h1>Eres bendita porque creíste que el Señor haría lo que te dijo. <br /><small className='versiculo'>Lucas 1:45 - NTV</small></h1>
+          <h1 className='descMujeres'>Eres bendita porque creíste que el Señor haría lo que te dijo. <br /><small className='versiculo'>Lucas 1:45 - NTV</small></h1>
         </div>
       </div>
       <div className='CardWomen'>
@@ -20,7 +20,7 @@ function Mujeres() {
           </div>
         </div>
         <div className='img'>
-          <img src='public\Galeria7.jpg' alt='imagen1'></img>
+          <img src='./Galeria7.jpg' alt='imagen1'></img>
         </div>
       </div>
       <div className='CardWomen card2'>
@@ -33,7 +33,7 @@ function Mujeres() {
           </div>
         </div>
         <div className='img img2'>
-          <img src='public\Galeria8.jpg' alt='imagen2'></img>
+          <img src='./Galeria8.jpg' alt='imagen2'></img>
         </div>
       </div>
       <div className='CardWomen'>
@@ -46,7 +46,7 @@ function Mujeres() {
           </div>
         </div>
         <div className='img'>
-          <img src='public\Mujeres1.jpg' alt='imagen3'></img>
+          <img src='./Mujeres1.jpg' alt='imagen3'></img>
         </div>
       </div>
       <div className="lugarHorarioMujeres">

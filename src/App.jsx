@@ -76,7 +76,7 @@ function App() {
         <Route path="/contacto" element={<><NavBorde/> <Contacto /></>} />
         <Route path="/hombres" element={<><NavSecundario/><NavBorde/><Hombres /></>} />
         <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/mujeres" element={<Mujeres />} />
+        <Route path="/mujeres" element={<><NavSecundario/><Mujeres /></>} />
         <Route path="/nav" element={<NavBorde />} />
         <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
         <Route path="/calendario" element={<Calendario />} />

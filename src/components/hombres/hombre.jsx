@@ -18,15 +18,15 @@ function Hombres() {
             </div>
             <div className='actividades'>
                 <div className='card'>
-                    <img src='public\fotoNovedades.jpeg'>
+                    <img src='./fotoNovedades.jpeg'>
                     </img>
                 </div>
                 <div className='card'>
-                    <img src='public\fotoNovedades.jpeg'>
+                    <img src='./fotoNovedades.jpeg'>
                     </img>
                 </div>
                 <div className='card'>
-                    <img src='public\fotoNovedades.jpeg'>
+                    <img src='./fotoNovedades.jpeg'>
                     </img>
                 </div>
             </div>

@@ -26,8 +26,8 @@ function App() {
   // const hombresImages = ['public/img/imagenes/FOTOS EVANGELIZACION/hombres12.jpg',
   //'public/img/imagenes/FOTOS EVANGELIZACION/hombres3.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres22.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres15.jpg'];
   const jovenesImages = [
-    "public/img/imagenes/App1.jpg",
-    "public/img/imagenes/App2.jpg",
+    "/img/imagenes/App1.jpg",
+    "/img/imagenes/App2.jpg",
     "public/img/imagenes/Ministerios4.jpg",
     "public/img/imagenes/App3.jpg",
     "public/img/imagenes/App4.jpg",
@@ -35,15 +35,15 @@ function App() {
   ];
   const novedadesImage = [];
   const citakidsImages = [
-    "./App6.jpg",
-    "./App7.jpg",
-    "./App8.jpg",
-    "./App9.jpg",
-    "./App1.jpg",
-    "./App2.jpg",
-    "./App10.jpg",
-    "./App11.jpg",
-    "./Ministerios4.jpg",
+    "/img/imagenes/App6.jpg",
+    "/imagenes/App7.jpg",
+    "/imagenes/App8.jpg",
+    "/imagenes/App9.jpg",
+    "/imagenes/App1.jpg",
+    "/imagenes/App2.jpg",
+    "/imagenes/App10.jpg",
+    "/imagenes/App11.jpg",
+    "/imagenes/Ministerios4.jpg",
   ];
   const reunionesImages = [];
   const campamentoImages = [

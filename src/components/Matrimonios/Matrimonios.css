@@ -59,7 +59,7 @@
 
 
 .lugar-horario {
- 
+
   width: 100%;
   border-radius: 60px;
   height: 500px;
@@ -69,10 +69,11 @@
   background-color: rgba(0, 1, 0, 3.5);
 }
 
-.tituloMatri{
+.tituloMatri {
   font-weight: 300;
   font-size: 30px;
 }
+
 .horarios-matrimonios h3 {
   color: #ffffff;
 }

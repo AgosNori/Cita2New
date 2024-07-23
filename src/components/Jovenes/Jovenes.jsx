@@ -7,7 +7,7 @@ function Jovenes({ images }) {
         <div className="BannerJovenes">
           <div className="fotoprincipalJovenes">
             <div className="parallax-inner-Jovenes">
-              <h2>Bienvenidos al ministerio de Jovenes</h2>
+              <h2 className="tituloParallaxHombre">Bienvenidos al ministerio de Jovenes</h2>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function Jovenes({ images }) {
             </div>
           </div>
           <div className='img'>
-            <img src='public\img\imagenes\Jovenes2.jpg' alt='imagen1'></img>
+            <img src='./Jovenes2.jpg' alt='imagen1'></img>
           </div>
         </div>
         <div className='CardMyJ card2'>
@@ -41,7 +41,7 @@ function Jovenes({ images }) {
             </div>
           </div>
           <div className='img img2'>
-            <img src='public\img\imagenes\Jovenes3.jpg' alt='imagen2'></img>
+            <img src='./Jovenes3.jpg' alt='imagen2'></img>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 .fotoprincipalJovenes {
     margin-top: 0px;
     height: 80vh;
-    background: url('C:\Users\agosn\CitaFinal\cita\public\img\imagenes\Jovenes1.jpg') no-repeat;
+    background: url('C:\Users\agosn\citaNuevo\citanew\public\imagenes\Jovenes1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,12 +13,12 @@
     display: flex;
 }
 
-.parallax-inner-Jovenes h2 {
-    font-size: 60px;
+.parallax-inner-Jovenes .tituloParallaxHombre {
+    font-size: 40px;
     color: #ffffff;
     margin: 30px;
     text-align: end;
-    font-weight: 500;
+    font-weight: 200;
     letter-spacing: 3px;
 }
 

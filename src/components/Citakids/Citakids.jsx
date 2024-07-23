@@ -81,7 +81,7 @@ function Citakids({ images }) {
       <div className="video-containerKids">
         <video
           className="videoKids"
-          src="public\img\imagenes\kidsabados.mp4"
+          src="./kidsabados.mp4"
           controls
           autoPlay
           loop
@@ -92,9 +92,9 @@ function Citakids({ images }) {
       <div className="conexion-kids">
         <div className="merendero-kids">
           <div className="mer-kids">
-            <p>  El merendero funcoina los días sábados  a las 16:30 hs.</p>
+            <p>  El merendero funciona los días sábados  a las 16:30 hs.</p>
           </div>
-          <img className="img-merendero" src="public\img\imagenes\Kids1.jpeg"></img>
+          <img className="img-merendero" src="./Kids1.jpeg"></img>
           <Link to="/ministerios" className="btn-kids">
             Más Info.
           </Link>

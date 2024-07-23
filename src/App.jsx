@@ -19,6 +19,7 @@ import Musicos from './components/Musicos/Musicos';
 import SoyNuevo from './components/SoyNuevo/SoyNuevo';
 import Nav from './components/NavPrincipal/NavPrincipal';
 import NavSecundario from './components/NavSecundario/NavSecundario';
+import Reuniones from './components/Reuniones/Reuniones';
 
 function App() {
   const contactoImages = [];
@@ -34,15 +35,15 @@ function App() {
   ];
   const novedadesImage = [];
   const citakidsImages = [
-    "public/img/imagenes/App6.jpg",
-    "public/img/imagenes/App7.jpg",
-    "public/img/imagenes/App8.jpg",
-    "public/img/imagenes/App9.jpg",
-    "public/img/imagenes/App1.jpg",
-    "public/img/imagenes/App2.jpg",
-    "public/img/imagenes/App10.jpg",
-    "public/img/imagenes/App11.jpg",
-    "public/img/imagenes/Ministerios4.jpg",
+    "./App6.jpg",
+    "./App7.jpg",
+    "./App8.jpg",
+    "./App9.jpg",
+    "./App1.jpg",
+    "./App2.jpg",
+    "./App10.jpg",
+    "./App11.jpg",
+    "./Ministerios4.jpg",
   ];
   const reunionesImages = [];
   const campamentoImages = [
@@ -72,23 +73,24 @@ function App() {
     <BrowserRouter basename="/Cita2New">
       <Routes>
         <Route path="/" element={<><Nav /> <NavBorde /><Home /> </>} />
-        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /></>} />
         <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
         <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
         <Route path="/ministerios" element={<Ministerios />} />
         <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
         <Route path="/nav" element={<NavBorde />} />
         <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
-        <Route path="/calendario" element={<Calendario />} />
+        <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /></>} />
         <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
         <Route path="/cardnovedades" element={<CardNovedades />} />
-        <Route path="/citakids" element={<Citakids images={citakidsImages} />} />
+        <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
         <Route path="/galeria" element={<Gallery />} />
-        <Route path="/jovenes" element={<Jovenes images={jovenesImages} />} />
+        <Route path="/jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /></>} />
         <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
         <Route path="/musicos" element={<Musicos images={musicosImages} />} />
         <Route path="/soynuevo" element={<SoyNuevo />} />
         <Route path='/navprincipal' element={<Nav />} />
+        <Route path='/reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/></>}/>
       </Routes>
     </BrowserRouter>
   );

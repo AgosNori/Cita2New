@@ -3,28 +3,10 @@ function Nosotros() {
     return (
         <div className='nosotros'>
             <div className='headerNosotros'>
-                <div className='logo'>
-                    <img src='public\Logo RGB BLANCO.png' width="150"></img>
-                </div>
-                <div className='nav'>
-                    <ul>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                        <li>
-                            <a href="#">home</a>
-                        </li>
-                    </ul>
-                </div>
+
             </div>
             <div className='tituloNosotros'>
-                <h1>Nosotros</h1>
+                <h2 className='ttNosotros'>Nosotros</h2>
             </div>
             <div className='descripcion'>
                 <div className='imagenPastor'>

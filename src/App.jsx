@@ -35,15 +35,15 @@ function App() {
   ];
   const novedadesImage = [];
   const citakidsImages = [
-    "/img/imagenes/App6.jpg",
-    "/imagenes/App7.jpg",
-    "/imagenes/App8.jpg",
-    "/imagenes/App9.jpg",
-    "/imagenes/App1.jpg",
-    "/imagenes/App2.jpg",
-    "/imagenes/App10.jpg",
-    "/imagenes/App11.jpg",
-    "/imagenes/Ministerios4.jpg",
+    "./App6.jpg",
+    "./App7.jpg",
+    "./App8.jpg",
+    "./App9.jpg",
+    "./App1.jpg",
+    "./App2.jpg",
+    "./App10.jpg",
+    "./App11.jpg",
+    "./Ministerios4.jpg",
   ];
   const reunionesImages = [];
   const campamentoImages = [

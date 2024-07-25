@@ -3,12 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-}
-
-.headerNav {
     background-color: transparent;
     display: flex;
-    gap: 40px;
+    gap: 2.5em;
     justify-content: center;
     height: 70px;
     position: relative;
@@ -18,7 +15,6 @@
 .headerNav:hover {
     background-color: #ffffff;
     color: rgb(30, 74, 112);
-
 }
 
 .background-video {
@@ -34,14 +30,13 @@
 .logoNav {
     width: 10em;
     height: auto;
-    margin-right: 490px;
+    margin-right: auto;
 }
 
 .headerNav .navNav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
 
 .navNav {
     display: flex;
@@ -53,8 +48,8 @@
 .navNav ul {
     display: flex;
     list-style: none;
-    gap: 30px;
-    background-color: #7b726300;
+    gap: 1.875em;
+    background-color: transparent;
 }
 
 .navNav ul li {
@@ -68,7 +63,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color:transparent;
+    background-color: transparent;
     transition: background-color 0.3s ease;
 }
 
@@ -79,9 +74,6 @@
 .nav-btn {
     width: 10px;
     height: 10px;
-}
-
-.headerNav .nav-btn {
     padding: 5px;
     cursor: pointer;
     background: transparent;
@@ -91,6 +83,11 @@
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+}
+
+.headerNav .nav-btn {
+    visibility: hidden;
+    opacity: 0;
 }
 
 .dropdown-menu {
@@ -124,19 +121,17 @@
 
 .dropdown-menu li:hover {
     background-color: #000000;
-    ;
 }
-
 
 @media only screen and (max-width: 1024px) {
     .headerNav {
-        display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .logoNav {
         margin-left: 40px;
+        margin-right: 0;
     }
 
     .nav-btn {
@@ -148,19 +143,13 @@
         opacity: 1;
     }
 
-    .headerNav .responsive_nav {
-        transform: translateY(100vh);
-    }
-
-    .navNav .nav-close-btn {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-    }
-
     .navNav ul {
-        display: flex;
+        display: none;
         flex-direction: column;
+    }
+
+    .navNav ul.responsive_nav {
+        display: flex;
     }
 
     .navNav a {
@@ -204,5 +193,141 @@
 
     .dropdown-menu li a {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerNav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoNav {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .nav-btn {
+        margin-right: 20px;
+    }
+
+    .headerNav .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navNav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navNav ul.responsive_nav {
+        display: flex;
+    }
+
+    .navNav a {
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+        left: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .headerNav .navNav {
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #7B7263;
+        overflow-y: auto;
+    }
+
+    .navNav .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .navNav ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .dropdown-menu li a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .headerNav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logoNav {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .nav-btn {
+        margin-right: 10px;
+    }
+
+    .headerNav .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navNav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navNav ul.responsive_nav {
+        display: flex;
+    }
+
+    .navNav a {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .dropdown-menu {
+        background: none;
+        border: none;
+        left: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .headerNav .navNav {
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #7B7263;
+        overflow-y: auto;
+    }
+
+    .navNav .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .navNav ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .dropdown-menu li a {
+        font-size: 16px;
     }
 }

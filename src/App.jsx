@@ -20,9 +20,9 @@ import SoyNuevo from './components/SoyNuevo/SoyNuevo';
 import Nav from './components/NavPrincipal/NavPrincipal';
 import NavSecundario from './components/NavSecundario/NavSecundario';
 import Reuniones from './components/Reuniones/Reuniones';
-
+import Footer from './components/Footer/Footer';
 function App() {
-  const contactoImages = [];
+  //const contactoImages = [];
   // const hombresImages = ['public/img/imagenes/FOTOS EVANGELIZACION/hombres12.jpg',
   //'public/img/imagenes/FOTOS EVANGELIZACION/hombres3.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres22.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres15.jpg'];
   const jovenesImages = [
@@ -33,7 +33,7 @@ function App() {
     "public/img/imagenes/App4.jpg",
     "public/img/imagenes/App5.jpg",
   ];
-  const novedadesImage = [];
+  //const novedadesImage = [];
   const citakidsImages = [
     "./App6.jpg",
     "./App7.jpg",
@@ -45,7 +45,7 @@ function App() {
     "./App11.jpg",
     "./Ministerios4.jpg",
   ];
-  const reunionesImages = [];
+  //const reunionesImages = [];
   const campamentoImages = [
     "public/img/Fotos Campamento/Campa1.jpg",
     "public/img/Fotos Campamento/Campa2.jpg",
@@ -58,13 +58,13 @@ function App() {
     "public/img/Fotos Campamento/Campa8.jpg",
 
   ];
-  const soyNuevoImages = [];
-  const matrimoniosImages = [
-    "public/img/imagenes/Matri1.jpg",
-    "public/img/imagenes/imagen2.jpg",
-  ];
-  const ministeriosImages = [];
-  const nosotrosImages = [];
+  //const soyNuevoImages = [];
+  // const matrimoniosImages = [
+  //   "public/img/imagenes/Matri1.jpg",
+  //   "public/img/imagenes/imagen2.jpg",
+  // ];
+  //const ministeriosImages = [];
+  //const nosotrosImages = [];
   const musicosImages = [
 
   ];
@@ -72,15 +72,15 @@ function App() {
   return (
     <BrowserRouter basename="/Cita2New">
       <Routes>
-        <Route path="/" element={<><Nav /> <NavBorde /><Home /> </>} />
-        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /></>} />
-        <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
-        <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
+        <Route path="/" element={<><Nav /> <NavBorde /><Home /><Footer/> </>} />
+        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><Footer/> </>} />
+        <Route path="/contacto" element={<><NavBorde /> <Contacto /><Footer/> </>} />
+        <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /><Footer/> </>} />
         <Route path="/ministerios" element={<Ministerios />} />
         <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
         <Route path="/nav" element={<NavBorde />} />
         <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
-        <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /></>} />
+        <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /><Footer/> </>} />
         <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
         <Route path="/cardnovedades" element={<CardNovedades />} />
         <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />

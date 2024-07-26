@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.292);
     display: flex;
     gap: 2.5em;
     justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .headerNav:hover {
-    background-color: #ffffff;
+    background-color: #a29b9b41;
     color: rgb(30, 74, 112);
 }
 
@@ -34,7 +34,7 @@
 }
 
 .headerNav .navNav ul li a {
-    color: rgb(255, 255, 255);
+    color: rgba(122, 118, 118, 0.148);
     text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
     display: flex;
     list-style: none;
     gap: 1.875em;
-    background-color: transparent;
+    background-color: #2a2a2a;
 }
 
 .navNav ul li {
@@ -63,12 +63,12 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: transparent;
+    background-color: #2a2a2a;
     transition: background-color 0.3s ease;
 }
 
 .navNav ul li:hover::after {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.502);
 }
 
 .nav-btn {
@@ -76,10 +76,10 @@
     height: 10px;
     padding: 5px;
     cursor: pointer;
-    background: transparent;
+    background: #2a2a2a;
     border: none;
     outline: none;
-    color: black;
+    color: rgba(169, 159, 159, 0.329);
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
@@ -95,9 +95,9 @@
     top: 100%;
     left: 0;
     width: 300px;
-    background-color: #000000;
+    background-color: #645f5f5d;
     border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(97, 95, 95, 0.2);
     padding: 10px;
     display: none;
     flex-direction: column;
@@ -113,14 +113,14 @@
 }
 
 .dropdown-menu li a {
-    color: black;
+    color: rgba(88, 84, 84, 0.212);
     text-decoration: none;
     display: block;
     padding: 10px;
 }
 
 .dropdown-menu li:hover {
-    background-color: #000000;
+    background-color: #6761615d;
 }
 
 @media only screen and (max-width: 1024px) {

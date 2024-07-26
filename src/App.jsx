@@ -77,20 +77,20 @@ function App() {
         <Route path="/contacto" element={<><NavBorde /> <Contacto /><Footer/> </>} />
         <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /><Footer/> </>} />
         <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
+        <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /><Footer/></>} />
         <Route path="/nav" element={<NavBorde />} />
-        <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
+        <Route path="/formcampa" element={<><NavBorde /> <FormCampa /><Footer/></>} />
         <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /><Footer/> </>} />
         <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
         <Route path="/cardnovedades" element={<CardNovedades />} />
-        <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
+        <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /><Footer/></>} />
         <Route path="/galeria" element={<Gallery />} />
-        <Route path="/jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /></>} />
-        <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
+        <Route path="/jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /><Footer/></>} />
+        <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /><Footer/></>} />
         <Route path="/musicos" element={<Musicos images={musicosImages} />} />
         <Route path="/soynuevo" element={<SoyNuevo />} />
         <Route path='/navprincipal' element={<Nav />} />
-        <Route path='/reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/></>}/>
+        <Route path='/reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/><Footer/></>}/>
       </Routes>
     </BrowserRouter>
   );

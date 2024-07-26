@@ -81,7 +81,7 @@ function App() {
         <Route path="/nav" element={<NavBorde />} />
         <Route path="/formcampa" element={<><NavBorde /> <FormCampa /><Footer/></>} />
         <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /><Footer/> </>} />
-        <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
+        <Route path="/campamento" element={<><NavSecundario/><Campamento campamentoImages={campamentoImages} /><Footer/> </>} />
         <Route path="/cardnovedades" element={<CardNovedades />} />
         <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /><Footer/></>} />
         <Route path="/galeria" element={<Gallery />} />

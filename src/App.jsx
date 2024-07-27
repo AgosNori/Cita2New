@@ -94,12 +94,12 @@ function App() {
         <Route path="calendario" element={<><NavSecundario/><NavBorde/><Calendario /><FooterMusic/></>} />
         <Route path="campamento" element={<><NavSecundario/><NavBorde/><Campamento campamentoImages={campamentoImages} /><FooterMusic/></>} />
         <Route path="cardnovedades" element={<><NavSecundario/><NavBorde/><CardNovedades /><FooterMusic/></>} />
-        <Route path="citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
-        <Route path="galeria" element={<Gallery />} />
+        <Route path="citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /><FooterMusic/></>} />
+        <Route path="galeria" element={<><NavSecundario/><Gallery /><FooterMusic/></>} />
         <Route path="jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /><FooterMusic/></>} />
         <Route path="matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /><FooterMusic/></>} />
-        <Route path="musicos" element={<><Musicos images={musicosImages} /><NavSecundario/><NavBorde/></>} />
-        <Route path="soynuevo" element={<SoyNuevo />} />
+        <Route path="musicos" element={<><NavSecundario/><Musicos images={musicosImages} /><NavBorde/><FooterMusic/></>} />
+        <Route path="soynuevo" element={<><NavSecundario/><NavBorde/><SoyNuevo/><FooterMusic/></>} />
         <Route path='navprincipal' element={<Nav />} />
         <Route path='reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/><FooterMusic/></>}/>
       </Routes>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import PropTypes from "prop-types";
-
+import './Musicos.css';
 function Musicos({ images }) {
     const [dropdownOpenMinisterios, setDropdownOpenMinisterios] = useState(false);
     const [dropdownOpenVidaIglesia, setDropdownOpenVidaIglesia] = useState(false);

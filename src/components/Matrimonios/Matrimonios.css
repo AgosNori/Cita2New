@@ -1,7 +1,7 @@
 .fotoprincipalMatrimonios {
   margin-top: -0px;
   height: 80vh;
-  background: url('C:\Users\agosn\citaNuevo\citanew\public\imagenes\Matrimonios1.jpeg') no-repeat;
+  background: url('C:\Users\agosn\citaNuevo\citanew\public\Matrimonios1.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -63,7 +63,7 @@
   width: 100%;
   border-radius: 60px;
   height: 500px;
-  background-image: url('C:\Users\agosn\citaNuevo\citanew\public\imagenes\pareja.jpeg');
+  background-image: url('C:\Users\agosn\citaNuevo\citanew\public\pareja.jpeg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 1, 0, 3.5);

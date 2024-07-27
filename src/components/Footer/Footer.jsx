@@ -9,7 +9,7 @@ function FooterMusic() {
                     <img src="./Logo RGB BLANCO.png" alt="Cita Logo" className='logoF' />
                 </div>
                 <div className="musica-links">
-                    <a className='aFooter' href="/novedades">Novedades</a>
+                    <a className='aFooter' href="/cardnovedades">Novedades</a>
                     <a className='aFooter' href="/reuniones">Reuniones</a>
                     <a className='aFooter' href="/campamento">Campamentos</a>
                     <a className='aFooter' href="/">Home</a>

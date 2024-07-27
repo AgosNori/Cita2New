@@ -4,48 +4,48 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 
 const campamentoImages = [
   {
-    original: 'public/img/Fotos Campamento/Galeria1.jpg',
-    thumbnail: 'public/img/Fotos Campamento/Galeria1.jpg',
+    original: './Galeria1.jpg',
+    thumbnail: './Galeria1.jpg',
     description: 'Campamento 2024 ',
   },
   {
-    original: 'public/img/Fotos Campamento/Galeria2.jpg',
-    thumbnail: 'public/img/Fotos Campamento/Galeria2.jpg',
+    original: './Galeria2.jpg',
+    thumbnail: './Galeria2.jpg',
     description: 'Campamento 2024',
   },
   {
-    original: 'public/img/Fotos Campamento/Galeria3.jpg',
-    thumbnail: 'public/img/Fotos Campamento/Galeria3.jpg',
+    original: './Galeria3.jpg',
+    thumbnail: './Galeria3.jpg',
     description: 'Campamento 2024',
   },
   {
-    original: 'public/img/FOTOS EVANGELIZACION/Galeria4.jpg',
-    thumbnail: 'public/img/FOTOS EVANGELIZACION/Galeria4.jpg',
+    original: './Galeria4.jpg',
+    thumbnail: './Galeria4.jpg',
     description: 'Reuniones de Hombres',
   },
   {
-    original: 'public/img/FOTOS EVANGELIZACION/Galeria5.jpg',
-    thumbnail: 'public/img/FOTOS EVANGELIZACION/Galeria5.jpg',
+    original: './Galeria5.jpg',
+    thumbnail: './Galeria5.jpg',
     description: 'Reuniones de Hombre',
   },
   {
-    original: 'public/img/FOTOS EVANGELIZACION/Galeria6.jpg',
-    thumbnail: 'public/img/FOTOS EVANGELIZACION/Galeria6.jpg',
+    original: './Galeria6.jpg',
+    thumbnail: './Galeria6.jpg',
     description: 'Reuniones de Hombres',
   },
   {
-    original: 'public/img/imagenes/Galeria7.jpg',
-    thumbnail: 'public/img/imagenes/Galeria7.jpg',
+    original: './Galeria7.jpg',
+    thumbnail: './Galeria7.jpg',
     description: 'Reuniones de Mujeres',
   },
   {
-    original: 'public/img/imagenes/Galeria8.jpg',
-    thumbnail: 'public/img/imagenes/Galeria8.jpg',
+    original: './Galeria8.jpg',
+    thumbnail: './Galeria8.jpg',
     description: 'Reuniones de Mujeres',
   },
   {
-    original: 'public/img/imagenes/Galeria9.jpg',
-    thumbnail: 'public/img/imagenes/Galeria9.jpg',
+    original: './Galeria9.jpg',
+    thumbnail: './Galeria9.jpg',
     description: 'Reuniones de Mujeres',
   },
 

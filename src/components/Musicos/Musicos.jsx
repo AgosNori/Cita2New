@@ -33,7 +33,7 @@ function Musicos({ images }) {
                     ></iframe> */}
                     <div className="drop1-musicos">
                         <h2>Desarrollá tu don al servicio de Dios!</h2>
-                        <img className="imagen-musicos" src="public\img\imagenes\bannerMusicos.jpeg"></img>
+                        <img className="imagen-musicos" src="./bannerMusicos.jpeg"></img>
                     </div>
 
                 </div>
@@ -65,28 +65,28 @@ function Musicos({ images }) {
             <section className='tarjetas-musicos'>
                 <div className="tarjetas">
                     <div className="tarj">
-                        <img src="public\img\imagenes\bateria.jpeg" alt="Imagen 1" />
+                        <img src="./bateria.jpeg" alt="Imagen 1" />
                         <div className="tarj-cont">
                             <h3>Taller de Batería</h3>
 
                         </div>
                     </div>
                     <div className="tarj">
-                        <img src="public\img\imagenes\guitarra.jpg" alt="Imagen 2" />
+                        <img src="./guitarra.jpg" alt="Imagen 2" />
                         <div className="tarj-cont">
                             <h3>Taller de Guitarra</h3>
 
                         </div>
                     </div>
                     <div className="tarj">
-                        <img src="public\img\imagenes\piano.jpeg" />
+                        <img src="./piano.jpeg" />
                         <div className="tarj-cont">
                             <h3>Taller de Teclado</h3>
 
                         </div>
                     </div>
                     <div className="tarj">
-                        <img src="public\img\imagenes\Card3.jpg" alt="Imagen 4" />
+                        <img src="./Card3.jpg" alt="Imagen 4" />
                         <div className="tarj-cont">
                             <h3>Danza y Bandera</h3>
 

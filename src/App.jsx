@@ -58,15 +58,15 @@ function App() {
   ];
 
   const campamentoImages = [
-    "public/img/Fotos Campamento/Campa1.jpg",
-    "public/img/Fotos Campamento/Campa2.jpg",
-    "public/img/Fotos Campamento/Campa3.jpg",
-    "public/img/Fotos Campamento/Campa4.jpg",
-    "public/img/Fotos Campamento/Pastor.jpg",
-    "public/img/Fotos Campamento/Campa5.jpg",
-    "public/img/Fotos Campamento/Campa6.jpg",
-    "public/img/Fotos Campamento/Campa7.jpg",
-    "public/img/Fotos Campamento/Campa8.jpg",
+    "./Campa1.jpg",
+    "./Campa2.jpg",
+    "./Campa3.jpg",
+    "./Campa4.jpg",
+    "./Pastor.jpg",
+    "./Campa5.jpg",
+    "./Campa6.jpg",
+    "./Campa7.jpg",
+    "./Campa8.jpg",
 
   ];
   const soyNuevoImages = [];
@@ -81,27 +81,27 @@ function App() {
   ];
 
   return (
-    <BrowserRouter basename="/Cita2New">
+    <BrowserRouter basename="/Cita2New/">
       <Routes>
         <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic/> </>} />
-        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><FooterMusic/></>} />
-        <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
-        <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
-        <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
-        <Route path="/nav" element={<NavBorde />} />
-        <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
-        <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /></>} />
-        <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
-        <Route path="/cardnovedades" element={<CardNovedades />} />
-        <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
-        <Route path="/galeria" element={<Gallery />} />
-        <Route path="/jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /></>} />
-        <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
-        <Route path="/musicos" element={<Musicos images={musicosImages} />} />
-        <Route path="/soynuevo" element={<SoyNuevo />} />
-        <Route path='/navprincipal' element={<Nav />} />
-        <Route path='/reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/></>}/>
+        <Route path="nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><FooterMusic/></>} />
+        <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
+        <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /><FooterMusic/></>} />
+        <Route path="ministerios" element={<Ministerios />} />
+        <Route path="mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /><FooterMusic/></>} />
+        <Route path="nav" element={<NavBorde />} />
+        <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />
+        <Route path="calendario" element={<><NavSecundario/><NavBorde/><Calendario /><FooterMusic/></>} />
+        <Route path="campamento" element={<><NavSecundario/><NavBorde/><Campamento campamentoImages={campamentoImages} /><FooterMusic/></>} />
+        <Route path="cardnovedades" element={<><NavSecundario/><NavBorde/><CardNovedades /><FooterMusic/></>} />
+        <Route path="citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
+        <Route path="galeria" element={<Gallery />} />
+        <Route path="jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /><FooterMusic/></>} />
+        <Route path="matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /><FooterMusic/></>} />
+        <Route path="musicos" element={<><Musicos images={musicosImages} /><NavSecundario/><NavBorde/></>} />
+        <Route path="soynuevo" element={<SoyNuevo />} />
+        <Route path='navprincipal' element={<Nav />} />
+        <Route path='reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/><FooterMusic/></>}/>
       </Routes>
     </BrowserRouter>
   );

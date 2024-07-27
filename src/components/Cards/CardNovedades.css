@@ -39,6 +39,9 @@ article {
     aspect-ratio: 16 / 9;
     overflow: hidden;
   }
+  p{
+    text-align: justify;
+  }
   
   article img {
     max-width: 100%;

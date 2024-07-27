@@ -647,20 +647,25 @@ article:has(:hover, :focus) {
 
 /* estilos canales */
 .canalesReuniones {
+    box-shadow: rgba(24, 16, 16, 1.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     background-color: #2a2a2a;
-    height: 400px;
-    border-radius: 40px;
+    height: 450px;
+    border-radius: 50px 50px 0 0 ;
+}
+
+.tituloCanales {
+    display: flex;
+    justify-content: center;
+
 }
 
 .tituloCanales .canalesTitulo {
     font-size: 30px;
     font-weight: 200;
     color: white;
-    display: flex;
-    justify-content: center;
+    margin: 40px;
 
 }
-
 
 .btn-ver {
     background-color: #6B030A;
@@ -671,13 +676,15 @@ article:has(:hover, :focus) {
     text-decoration: none;
 
 }
-.canales{
-    margin: 100px auto;
+
+.canales {
+    margin: 50px auto;
     width: 90%;
     color: white;
     display: flex;
     justify-content: space-around;
 }
+
 .canales-ver {
     text-align: center;
 
@@ -688,10 +695,7 @@ article:has(:hover, :focus) {
 }
 
 .canales-ver h6 {
-    margin-top: 10px;
+
     margin-bottom: 30px;
     font-weight: 200;
-}
-.tituloC{
-    margin-top: 30px;
 }

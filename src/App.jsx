@@ -23,6 +23,7 @@ import Reuniones from './components/Reuniones/Reuniones';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import { useState, useEffect } from 'react';
+import FooterMusic from './components/Footer/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -82,8 +83,8 @@ function App() {
   return (
     <BrowserRouter basename="/Cita2New">
       <Routes>
-        <Route path="/" element={<><Nav /> <NavBorde /><Home /> </>} />
-        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /></>} />
+        <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic/> </>} />
+        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><FooterMusic/></>} />
         <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
         <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
         <Route path="/ministerios" element={<Ministerios />} />

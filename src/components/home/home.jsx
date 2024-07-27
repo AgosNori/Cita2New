@@ -240,10 +240,7 @@ function Home() {
 
             <div className='canalesReuniones'>
                 <div className="tituloCanales">
-                    <div className='tituloC'>
-                        <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
-                    </div>
-
+                    <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
                 </div>
                 <div className="canales">
                     <div className="canales-ver">
@@ -263,6 +260,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>
     )
 }

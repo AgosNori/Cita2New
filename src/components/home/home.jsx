@@ -151,7 +151,7 @@ function Home() {
                 </div>
                 <div className='videoBienvenida'>
                     <video controls autoPlay loop >
-                        <source className='video' src='./kidsabados.mp4'type='video/mp4'/>
+                        <source className='video' src='./kidsabados.mp4' type='video/mp4' />
                     </video>
                 </div>
             </div>
@@ -237,44 +237,26 @@ function Home() {
                     </button>
                 </div>
             </div>
-            <h2 className='ttForm'>¿Necesitas contactarte con nosotros?</h2>
-            <div className='formulariosEscPedidos'>
 
-                <div className='cardForm'>
-                    <div className='Escribenos'>
-                        <div className='cardFormHeader'>
-                            <h4 className='tituloFormCard'>Escribenos </h4>
-                        </div>
-                        <div className='botonForm'>
-                            <button className='botoncitoForm'>Ir al form</button>
-                        </div>
-                    </div>
-                    <div className='Pedidos'>
-                        <div className='cardFormHeader'>
-                            <h4 className='tituloFormCard'>Pedidos de oración</h4>
-                        </div>
-                        <div className='botonForm'>
-                            <button className='botoncitoForm'>Ir al form</button>
-                        </div>
+            <div className='canalesReuniones'>
+                <div className="tituloCanales">
+                    <div className='tituloC'>
+                        <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
                     </div>
 
                 </div>
-
-            </div>
-            <div className='canalesReuniones'>
                 <div className="canales">
-                    <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
                     <div className="canales-ver">
-                        <img src="./iconos/iconmonstr-video-camera-12-240.png" className="" width="90px"></img>
-                        <h6> Volve a revivir la palabra por nuestro canal.</h6>
+                        <img src="./iconmonstr-video-camera-12-240.png" className="" width="90px"></img>
+                        <h6 className='descCanales'> Volve a revivir la palabra por nuestro canal.</h6>
 
                         <button href="https://www.youtube.com/@citaconlavidamontecristo3858" className="btn-ver">
                             Ver
                         </button>
                     </div>
                     <div className="canales-ver">
-                        <img src="./iconos/galeria.png" className=""></img>
-                        <h6>Nuestra Galería de imágenes.</h6>
+                        <img src="./galeria.png" className=""></img>
+                        <h6 className='descCanales'>Nuestra Galería de imágenes.</h6>
                         <button href="/galeria" className="btn-ver">
                             Ver
                         </button>

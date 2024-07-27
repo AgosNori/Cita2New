@@ -26,12 +26,12 @@ function App() {
   // const hombresImages = ['public/img/imagenes/FOTOS EVANGELIZACION/hombres12.jpg',
   //'public/img/imagenes/FOTOS EVANGELIZACION/hombres3.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres22.jpg', 'public/img/imagenes/FOTOS EVANGELIZACION/hombres15.jpg'];
   const jovenesImages = [
-    "/img/imagenes/App1.jpg",
-    "/img/imagenes/App2.jpg",
-    "public/img/imagenes/Ministerios4.jpg",
-    "public/img/imagenes/App3.jpg",
-    "public/img/imagenes/App4.jpg",
-    "public/img/imagenes/App5.jpg",
+    "./App1.jpg",
+    "./App2.jpg",
+    "./Ministerios4.jpg",
+    "./App3.jpg",
+    "./App4.jpg",
+    "./App5.jpg",
   ];
   const novedadesImage = [];
   const citakidsImages = [
@@ -47,21 +47,21 @@ function App() {
   ];
   const reunionesImages = [];
   const campamentoImages = [
-    "public/img/Fotos Campamento/Campa1.jpg",
-    "public/img/Fotos Campamento/Campa2.jpg",
-    "public/img/Fotos Campamento/Campa3.jpg",
-    "public/img/Fotos Campamento/Campa4.jpg",
-    "public/img/Fotos Campamento/Pastor.jpg",
-    "public/img/Fotos Campamento/Campa5.jpg",
-    "public/img/Fotos Campamento/Campa6.jpg",
-    "public/img/Fotos Campamento/Campa7.jpg",
-    "public/img/Fotos Campamento/Campa8.jpg",
+    "./Campa1.jpg",
+    "./Campa2.jpg",
+    "./Campa3.jpg",
+    "./Campa4.jpg",
+    "./Pastor.jpg",
+    "./Campa5.jpg",
+    "./Campa6.jpg",
+    "./Campa7.jpg",
+    "./Campa8.jpg",
 
   ];
   const soyNuevoImages = [];
   const matrimoniosImages = [
-    "public/img/imagenes/Matri1.jpg",
-    "public/img/imagenes/imagen2.jpg",
+    "./Matri1.jpg",
+    "./imagen2.jpg",
   ];
   const ministeriosImages = [];
   const nosotrosImages = [];
@@ -70,27 +70,27 @@ function App() {
   ];
 
   return (
-    <BrowserRouter basename="/Cita2New">
+    <BrowserRouter basename="/Cita2New/">
       <Routes>
         <Route path="/" element={<><Nav /> <NavBorde /><Home /> </>} />
-        <Route path="/nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /></>} />
-        <Route path="/contacto" element={<><NavBorde /> <Contacto /></>} />
-        <Route path="/hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
-        <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
-        <Route path="/nav" element={<NavBorde />} />
-        <Route path="/formcampa" element={<><NavBorde /> <FormCampa /></>} />
-        <Route path="/calendario" element={<><NavSecundario/><NavBorde/><Calendario /></>} />
-        <Route path="/campamento" element={<Campamento campamentoImages={campamentoImages} />} />
-        <Route path="/cardnovedades" element={<CardNovedades />} />
-        <Route path="/citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
-        <Route path="/galeria" element={<Gallery />} />
-        <Route path="/jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /></>} />
-        <Route path="/matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
-        <Route path="/musicos" element={<Musicos images={musicosImages} />} />
-        <Route path="/soynuevo" element={<SoyNuevo />} />
-        <Route path='/navprincipal' element={<Nav />} />
-        <Route path='/reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/></>}/>
+        <Route path="nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /></>} />
+        <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
+        <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /></>} />
+        <Route path="ministerios" element={<Ministerios />} />
+        <Route path="mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /></>} />
+        <Route path="nav" element={<NavBorde />} />
+        <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />
+        <Route path="calendario" element={<><NavSecundario/><NavBorde/><Calendario /></>} />
+        <Route path="campamento" element={<Campamento campamentoImages={campamentoImages} />} />
+        <Route path="cardnovedades" element={<CardNovedades />} />
+        <Route path="citakids" element={<><NavBorde/><NavSecundario/><Citakids images={citakidsImages} /></>} />
+        <Route path="galeria" element={<Gallery />} />
+        <Route path="jovenes" element={<><NavSecundario/><NavBorde/><Jovenes images={jovenesImages} /></>} />
+        <Route path="matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /></>} />
+        <Route path="musicos" element={<Musicos images={musicosImages} />} />
+        <Route path="soynuevo" element={<SoyNuevo />} />
+        <Route path='navprincipal' element={<Nav />} />
+        <Route path='reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/></>}/>
       </Routes>
     </BrowserRouter>
   );

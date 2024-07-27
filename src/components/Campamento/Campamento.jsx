@@ -1,9 +1,8 @@
 import "./Campamento.css";
-
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
-function Campamento({ campamentoImages }) {
 
+function Campamento({ campamentoImages }) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,13 +28,19 @@ function Campamento({ campamentoImages }) {
 
   return (
     <>
-  
+      <nav className={navClass}>
+        <button className={menuToggleClass} onClick={toggleMenu}>
+          Menu
+        </button>
+      </nav>
       <section className="banner-campa-campamento">
         <div className="imagen-conta-campamento">
           <img
             className="img-campa-campamento"
             src="./Campamento1.jpg"
-            alt="Campamento de Verano" width="100%" height="650px"
+            alt="Campamento de Verano"
+            width="100%"
+            height="650px"
           />
           <div className="texto-sobre-imagen-campamento">
             <h2>Campa de Verano ¡Inscríbete cuanto antes!</h2>
@@ -58,11 +63,12 @@ function Campamento({ campamentoImages }) {
           <img key={index} className="img-cuadro" src={image} alt={`Imagen ${index + 1}`} />
         ))}
       </div>
-
     </>
   );
 }
+
 Campamento.propTypes = {
   campamentoImages: PropTypes.array.isRequired,
 }
+
 export default Campamento;

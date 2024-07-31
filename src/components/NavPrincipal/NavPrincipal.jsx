@@ -57,7 +57,6 @@ function Nav() {
                                     <ul className="dropdown-menu">
                                         <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>
                                         <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
-                                        <li><Link to="/matrimonios" rel="noopener noreferrer">Matrimonios</Link></li>
                                         <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
                                         <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>
                                         <li><Link to="/galeria" rel="noopener noreferrer">Galeria</Link></li>

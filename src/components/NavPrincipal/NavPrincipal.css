@@ -5,11 +5,12 @@
     background-color: transparent;
     display: flex;
     gap: 1em;
-    
+
     height: 70px;
     position: relative;
     z-index: 999;
 }
+
 .background-video {
     position: absolute;
     top: 0;
@@ -19,21 +20,25 @@
     object-fit: cover;
     z-index: -3;
 }
+
 .logoNav {
     width: 10em;
     height: auto;
     margin-right: auto;
 }
+
 .headerNav .navNav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 .navNav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
+
 .navNav ul {
     display: flex;
     list-style: none;
@@ -112,6 +117,7 @@
 .dropdown-menu li:hover {
     background-color: #000000;
 }
+
 @media only screen and (max-width: 1024px) {
     .headerNav {
         justify-content: space-between;

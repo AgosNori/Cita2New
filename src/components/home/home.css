@@ -17,25 +17,6 @@
     background-color: #EBB3A9;
 }
 
-.cardpresen {
-    width: 70%;
-    position: relative;
-    background-color: rgb(222, 222, 222);
-    height: 320px;
-    margin: 20px 250px;
-    margin-top: -340PX;
-
-}
-
-.cardpresen .parrafo {
-    margin: 40px 150px;
-    display: flex;
-    text-align: justify;
-    width: 70%;
-    padding: 40px;
-    font-size: 15px;
-
-}
 
 .botones {
     margin: 200px;
@@ -650,7 +631,7 @@ article:has(:hover, :focus) {
     box-shadow: rgba(24, 16, 16, 1.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     background-color: #2a2a2a;
     height: 450px;
-    border-radius: 50px 50px 0 0 ;
+    border-radius: 50px 50px 0 0;
 }
 
 .tituloCanales {
@@ -698,4 +679,64 @@ article:has(:hover, :focus) {
 
     margin-bottom: 30px;
     font-weight: 200;
+}
+
+/* estilos responsive */
+@media only screen and (max-width: 1500px) {}
+
+.cardpresen {
+    width: 70%;
+    position: relative;
+    background-color: rgb(222, 222, 222);
+    height: 320px;
+    margin: 20px 250px;
+    margin-top: -340PX;
+}
+
+.cardpresen .parrafo {
+    margin: 40px 150px;
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    padding: 40px;
+    font-size: 15px;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .cardBack {
+        display: none;
+    }
+
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        margin-top: 1000px;
+    }
+
+    .cardpresen {
+        height: auto;
+        padding: 200px;
+        border-radius: 50px;
+    }
+
+    .cardpresen .parrafo {
+        width: 300%;
+
+        margin: 0;
+        padding: 0;
+    }
+    .botones{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .videoBienvenidos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .videoBienvenidos .tituloBienvenidos{
+        width: 100%;
+        justify-content: center;
+    }
 }

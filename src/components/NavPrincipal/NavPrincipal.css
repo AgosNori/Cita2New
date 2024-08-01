@@ -117,7 +117,7 @@
 .dropdown-menu li:hover {
     background-color: #000000;
 }
-
+/*
 @media only screen and (max-width: 1024px) {
     .headerNav {
         justify-content: space-between;
@@ -325,4 +325,4 @@
     .dropdown-menu li a {
         font-size: 16px
     }
-}
+}*/

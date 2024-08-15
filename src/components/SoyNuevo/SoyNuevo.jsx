@@ -43,7 +43,7 @@ function SoyNuevo() {
         <div className="material-lectura">
           <div className="cardSoyNuevo">
             <img
-              src="public\img\imagenes\biblia.jpg"
+              src="./biblia.jpg"
               alt="Descripción de la imagen"
             ></img>
             <div className="card-content">
@@ -54,7 +54,7 @@ function SoyNuevo() {
           </div>
           <div className="cardSoyNuevo">
             <img
-              src="public\img\imagenes\musica.jpg"
+              src="./musica.jpg"
               alt="Descripción de la imagen"
             ></img>
             <div className="card-content">
@@ -65,7 +65,7 @@ function SoyNuevo() {
           </div>
           <div className="cardSoyNuevo">
             <img
-              src="public\img\imagenes\radio.jpg"
+              src="./radio.jpg"
               alt="Descripción de la imagen"
             ></img>
             <div className="card-content">
@@ -76,7 +76,7 @@ function SoyNuevo() {
           </div>
           <div className="cardSoyNuevo">
             <img
-              src="public\img\imagenes\youtube.png"
+              src="./youtube.png"
               alt="Descripción de la imagen"
             ></img>
             <div className="card-content">

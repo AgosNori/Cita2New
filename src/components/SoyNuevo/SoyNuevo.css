@@ -126,12 +126,13 @@ h3 {
 
 .cardSoyNuevo .btn-soyNuevo:hover {
     background-color: rgba(0, 0, 0, 0.7);
+ 
 }
 
 .bienvenida {
     margin-top: -0px;
     height: 80vh;
-    background: url('img/imagenes/sembrar.jpg') no-repeat;
+    background: url('./sembrar.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

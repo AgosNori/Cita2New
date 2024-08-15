@@ -145,16 +145,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="videoBienvenidos">
-                <div className='tituloBienvenidos'>
-                    <h4>Mensaje de bienvenida</h4>
-                </div>
-                <div className='videoBienvenida'>
-                    <video controls autoPlay loop >
-                        <source className='video' src='./kidsabados.mp4' type='video/mp4' />
-                    </video>
-                </div>
-            </div>
+            
             <div className='novedades'>
                 <div className='tituloNovedades'>
                     <h3 className='nove'>Novedades</h3>

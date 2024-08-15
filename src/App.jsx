@@ -87,7 +87,7 @@ function App() {
         <Route path="nosotros" element={<><NavSecundario /><NavBorde /><Nosotros /><FooterMusic /></>} />
         <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
         <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /><FooterMusic /></>} />
-        <Route path="ministerios" element={<Ministerios />} />
+        <Route path="ministerios" element={<><NavSecundario /><Ministerios /></>} />
         <Route path="mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /><FooterMusic /></>} />
         <Route path="nav" element={<NavBorde />} />
         <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />

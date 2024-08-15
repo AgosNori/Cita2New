@@ -6,13 +6,15 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+.presentacion{
+    margin-top: 400px;
+}
 
 .cardBack {
     position: relative;
     margin: 100px;
     width: 300px;
-    margin-top: 660px;
+    margin-top: 960px;
     height: 300px;
     background-color: #EBB3A9;
 }
@@ -20,8 +22,10 @@
 
 .botones {
     margin: 200px;
+    width: 60%;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .btn-53,
@@ -533,6 +537,7 @@ article:has(:hover, :focus) {
     border: none;
     padding: 15px 20px;
     transition: all 0.5s ease;
+    text-decoration: none;
 }
 
 .botoncito:before {
@@ -711,7 +716,7 @@ article:has(:hover, :focus) {
     .presentacion {
         display: flex;
         justify-content: center;
-        margin-top: 1000px;
+        margin-top: 1200px;
     }
 
     .cardpresen {
@@ -744,7 +749,7 @@ article:has(:hover, :focus) {
 /* estilos para el boton de siembra*/
 
 .siembra {
-    position: relative;
+    position: absolute;
     padding: 1rem 4rem;
     background: #6B030A;
     font-size: 17px;
@@ -752,7 +757,7 @@ article:has(:hover, :focus) {
     color: white;
     border: none;
     border-radius: 40px;
-    
+    text-decoration: none;
     transition: all .3s ease-in-out;
 
 

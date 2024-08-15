@@ -6,8 +6,24 @@ import './NavPrincipal.css';
 import { Link } from "react-router-dom";
 
 function Nav() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState(null);
+
     const navRef = useRef(null);
+
+    const toggleMenu = () => {
+        if (window.innerWidth <= 768) {
+          setIsMenuOpen(!isMenuOpen);
+          if (!isMenuOpen) {
+            navRef.current.classList.add('responsive_nav');
+          } else {
+            navRef.current.classList.remove('responsive_nav');
+          }
+        } else {
+          // Agrega una clase adicional para dispositivos móviles con pantallas más grandes
+          navRef.current.classList.toggle('responsive_nav_large');
+        }
+      };
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     };
@@ -21,14 +37,11 @@ function Nav() {
     return (
         <>
             <header className="headerNav">
-                <video className="background-video" autoPlay loop muted>
-                    <source src="./kidsabados.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                
                 <div data-aos="fade-right">
                     <img className="logoNav" src='./Logo RGB BLANCO.png' alt="Logo" />
                 </div>
-                <nav ref={navRef} className="navNav">
+                <nav ref={navRef} className={`navNav ${isMenuOpen ? "responsive_nav" : ""}`}>
                     <div data-aos="fade-left">
                         <ul>
                             <li>
@@ -71,13 +84,10 @@ function Nav() {
                             </li>
                         </ul>
                     </div>
-                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                        <FaTimes />
-                    </button>
-                    <button className="nav-btn" onClick={showNavbar}>
-                        <FaBars />
-                    </button>
                 </nav>
+                <button className="nav-btn-principal" onClick={toggleMenu}>
+                    {isMenuOpen ? <FaTimes /> : <FaBars />}
+                </button>
             </header>
         </>
     );

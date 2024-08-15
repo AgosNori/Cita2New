@@ -139,7 +139,7 @@
         opacity: 1;
     }
 
-    .headerNav .responsive_nav {
+    .headerNav .responsive_nav_secundario {
         transform: translateY(100vh);
     }
 

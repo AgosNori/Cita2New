@@ -9,7 +9,7 @@ function NavSecundario() {
     const [activeDropdown, setActiveDropdown] = useState(null);
     const navRef = useRef(null);
     const showNavbar = () => {
-        navRef.current.classList.toggle("responsive_nav");
+        navRef.current.classList.toggle("responsive_nav_secundario");
     };
     const toggleDropdown = (dropdownName) => {
         setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);

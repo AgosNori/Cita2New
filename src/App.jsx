@@ -84,7 +84,7 @@ function App() {
     <BrowserRouter basename="/Cita2New/">
       <Routes>
         <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic/> </>} />
-        <Route path="nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><FooterMusic/></>} />
+       {/*} <Route path="nosotros" element={<><NavSecundario/><NavBorde/><Nosotros /><FooterMusic/></>} />
         <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
         <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /><FooterMusic/></>} />
         <Route path="ministerios" element={<Ministerios />} />
@@ -101,7 +101,7 @@ function App() {
         <Route path="musicos" element={<><NavSecundario/><Musicos images={musicosImages} /><NavBorde/><FooterMusic/></>} />
         <Route path="soynuevo" element={<><NavSecundario/><NavBorde/><SoyNuevo/><FooterMusic/></>} />
         <Route path='navprincipal' element={<Nav />} />
-        <Route path='reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/><FooterMusic/></>}/>
+        <Route path='reuniones' element={<><NavSecundario/><NavBorde/><Reuniones/><FooterMusic/></>}/>*/}
       </Routes>
     </BrowserRouter>
   );

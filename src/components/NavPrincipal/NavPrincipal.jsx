@@ -71,7 +71,7 @@ function Nav() {
                                     <Link to="#vidaiglesia">Vida de la iglesia</Link>
                                     {activeDropdown === "vidaiglesia" && (
                                         <ul className="dropdown-menu">
-                                            <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>
+                                           {/*} <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>*/}
                                             <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
                                             <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
                                             <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>

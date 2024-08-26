@@ -57,3 +57,9 @@
 .icon {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 999px){
+    .button-container{
+        display: none;
+    }
+}

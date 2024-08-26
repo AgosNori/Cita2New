@@ -7,7 +7,7 @@ function Mujeres() {
     <div className='containerM'>
       <div className="fotoMujeres">
         <div className="parallaxMujeres">
-          <h1 className='descMujeres'>Eres bendita porque creíste que el Señor haría lo que te dijo. <br /><small className='versiculo'>Lucas 1:45 - NTV</small></h1>
+          <h2 className='descMujeres'>Eres bendita porque creíste que el Señor haría lo que te dijo. <br /><small className='versiculo'>Lucas 1:45 - NTV</small></h2>
         </div>
       </div>
       <div className='CardWomen'>

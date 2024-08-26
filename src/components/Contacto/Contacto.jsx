@@ -1,6 +1,6 @@
 // src/components/AuthForm.jsx
 import React, { useState, useRef } from 'react';
-import './Contacto.css'; // Asegúrate de que los estilos estén en un archivo CSS
+import './Contacto.css';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 const Contacto = () => {

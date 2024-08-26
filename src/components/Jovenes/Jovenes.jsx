@@ -16,31 +16,31 @@ function Jovenes({ images }) {
             Los jóvenes enfrentan decisiones importantes sobre su futuro. El ministerio debe ofrecer apoyo espiritual y práctico mientras navegan por la universidad, la carrera, trabajos y las relaciones.
           </p>
         </div>
-        <div className='CardMyJ'>
+        <div className='CardJovenes'>
           <div className='cardsInfo'>
             <div className='fondoCard'>
-              <div className='cardMyJ'>
-                <h2 className='discipuladosMyJ'>Ministerio de PreAdolescentes</h2>
-                <p className='DescripMyJ'>Etapa Crucial: La preadolescencia es un período de transición entre la niñez y la adolescencia. Los preadolescentes necesitan un espacio seguro donde puedan explorar su fe, hacer preguntas y recibir orientación.
+              <div className='cardJ'>
+                <h2 className='discipuladosJovenes'>Ministerio de PreAdolescentes</h2>
+                <p className='descJ'>Etapa Crucial: La preadolescencia es un período de transición entre la niñez y la adolescencia. Los preadolescentes necesitan un espacio seguro donde puedan explorar su fe, hacer preguntas y recibir orientación.
                   El ministerio con preadolescentes está centrado en establecer sólidos fundamentos bíblicos. Es el momento adecuado para enseñarles sobre la gracia, la salvación y la vida en Cristo.</p>
               </div>
             </div>
           </div>
-          <div className='img'>
-            <img src='./Jovenes2.jpg' alt='imagen1'></img>
+          <div className='imgJ img2J'>
+            <img src='./App9.jpg' alt='imagen1' ></img>
           </div>
         </div>
-        <div className='CardMyJ card2'>
+        <div className='CardJovenes card2J'>
           <div className='cardsInfo'>
             <div className='fondoCard'>
-              <div className='cardMyJ'>
-                <h2 className='discipuladosMyJ'>Ministerio de Adolescentes</h2>
-                <p className='DescripMyJ'>Desafíos de la Adolescencia: La adolescencia es una etapa de cambios físicos, emocionales y sociales. Los adolescentes enfrentan desafíos como la identidad, las presiones sociales y las dudas de fe.
+              <div className='cardJ'>
+                <h2 className='discipuladosJovenes'>Ministerio de Adolescentes</h2>
+                <p className='descJ'>Desafíos de la Adolescencia: La adolescencia es una etapa de cambios físicos, emocionales y sociales. Los adolescentes enfrentan desafíos como la identidad, las presiones sociales y las dudas de fe.
                   El ministerio con adolescentes debe ir más allá de la superficialidad. Predicar la Palabra de Dios con fidelidad y abordar temas relevantes para ellos es esencial.</p>
               </div>
             </div>
           </div>
-          <div className='img img2'>
+          <div className='imgJ img2J'>
             <img src='./Jovenes3.jpg' alt='imagen2'></img>
           </div>
         </div>

@@ -1,31 +1,42 @@
-import { FaBars, FaTimes } from "react-icons/fa";
 import { useState, useRef, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './NavSecundario.css';
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 function NavSecundario() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState(null);
+
     const navRef = useRef(null);
-    const showNavbar = () => {
-        navRef.current.classList.toggle("responsive_nav_secundario");
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        if (!isMenuOpen) {
+            navRef.current.classList.add('show');
+        } else {
+            navRef.current.classList.remove('show');
+        }
     };
+
     const toggleDropdown = (dropdownName) => {
         setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);
     };
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
         AOS.refresh();
     }, []);
+
     return (
         <>
-            <header className="headerNavSecundario">
-                
+            <header className="headerNav">
                 <div data-aos="fade-right">
-                    <img className="logoNav" src='./Logo RGB BLANCO.png' alt="Logo" />
+                    <img className="logoNav" src='https://github.com/AgosNori/Cita2New/blob/master/public/Logo%20RGB%20BLANCO.png?raw=true' alt="Logo" />
                 </div>
-                <nav ref={navRef} className="navNavSecundario">
+                <nav ref={navRef} className={`navNavS ${isMenuOpen ? "responsive_nav" : ""}`}>
                     <div data-aos="fade-left">
                         <ul>
                             <li>
@@ -46,13 +57,12 @@ function NavSecundario() {
                             </li>
                             <li>
                                 <Link to="/nosotros" rel="noopener noreferrer">Nosotros</Link>
-
                             </li>
-                            <li className="dropdownSecundario" onMouseEnter={() => toggleDropdown("vidaiglesia")} onMouseLeave={() => toggleDropdown(null)}>
+                            <li className="dropdown" onMouseEnter={() => toggleDropdown("vidaiglesia")} onMouseLeave={() => toggleDropdown(null)}>
                                 <Link to="#vidaiglesia">Vida de la iglesia</Link>
                                 {activeDropdown === "vidaiglesia" && (
-                                    <ul className="dropdown-menu-secundario">
-                                        <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>
+                                    <ul className="dropdown-menu">
+                                        
                                         <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
                                         <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
                                         <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>
@@ -68,13 +78,10 @@ function NavSecundario() {
                             </li>
                         </ul>
                     </div>
-                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                        <FaTimes />
-                    </button>
-                    <button className="nav-btn" onClick={showNavbar}>
-                        <FaBars />
-                    </button>
                 </nav>
+                <button className="nav-btn" onClick={toggleMenu}>
+                    {isMenuOpen ? <FaTimes /> : <FaBars />}
+                </button>
             </header>
         </>
     );

@@ -24,14 +24,14 @@ function Matrimonios() {
             mayoría, la voluntad de Dios es que las personas se casen. La Biblia
             también nos advierte sobre precipitarnos en relaciones matrimoniales
             sin considerar la voluntad de Dios. Recordemos que Dios tiene un plan
-            perfecto para nuestras vidas, y buscarlo a él primero es fundamental.
+            perfecto para nuestras vidas, y buscarlo a él primero es fundamental. <br/> <br/>
             Romanos 12:2 y Jeremías 29:11 nos aseguran que sus planes son buenos y
             beneficiosos. Casarse con un Cristiano comprometido: Proverbios 21:9 y
             25:24 advierten sobre las consecuencias de casarse equivocadamente.
             Buscar un cónyuge comprometido con Cristo es esencial. 2 Corintios
             6:14-18 nos enseña sobre no unirnos en yugo desigual con no creyentes.
             El matrimonio debe ser una unión centrada en Cristo. Prioridad en el
-            matrimonio: Mateo 6:33 nos recuerda buscar primero el reino de Dios.
+            matrimonio: Mateo 6:33 nos recuerda buscar primero el reino de Dios. <br/> <br/>
             Mantener a Dios como nuestra prioridad más importante es esencial. 1
             Corintios 7:32-35 aconseja a los solteros y casados a enfocarse en
             servir al Señor sin distracciones. El ministerio de matrimonios debe

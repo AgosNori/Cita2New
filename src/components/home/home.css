@@ -6,26 +6,29 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-.presentacion{
-    margin-top: 400px;
+
+h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 900px;
+    font-weight: 200;
 }
 
-.cardBack {
-    position: relative;
-    margin: 100px;
-    width: 300px;
-    margin-top: 960px;
-    height: 300px;
-    background-color: #EBB3A9;
+.presentacion {
+    margin-top: 200px;
 }
+
 
 
 .botones {
-    margin: 200px;
-    width: 60%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
-    
+    align-content: center;
+    padding: 200px;
+    gap: 30%;
+    justify-content: center;
+
 }
 
 .btn-53,
@@ -211,8 +214,8 @@
 
     overflow: hidden;
 
-    font-weight: 200;
-    font-size: 30px;
+    font-weight: 100;
+    font-size: 20px;
     color: #FFF;
 
     z-index: 2;
@@ -687,63 +690,77 @@ article:has(:hover, :focus) {
 }
 
 /* estilos responsive */
-@media only screen and (max-width: 1500px) {}
+@media only screen and (min-width: 1000px) {
 
-.cardpresen {
-    width: 70%;
-    position: relative;
-    background-color: rgb(222, 222, 222);
-    height: 320px;
-    margin: 20px 250px;
-    margin-top: -340PX;
+    .cardBack {
+        position: relative;
+        margin: 100px;
+        width: 300px;
+
+        height: 300px;
+        background-color: #EBB3A9;
+    }
+
+    .cardpresen {
+
+        width: 70%;
+        position: relative;
+        background-color: rgb(222, 222, 222);
+        height: 220px;
+        margin: 20px 250px;
+        margin-top: -340PX;
+    }
+
+    .cardpresen .parrafo {
+        margin: 40px 150px;
+        display: flex;
+        text-align: justify;
+        width: 70%;
+        padding: 40px;
+        font-size: 15px;
+
+    }
+
+    
 }
 
-.cardpresen .parrafo {
-    margin: 40px 150px;
-    display: flex;
-    text-align: justify;
-    width: 70%;
-    padding: 40px;
-    font-size: 15px;
 
-}
+@media only screen and (max-width: 999px) {
 
-@media only screen and (max-width: 900px) {
+
+    .parrafo {
+
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 80%;
+        margin: 30px auto;
+
+        font-size: 15px;
+
+    }
+
     .cardBack {
         display: none;
     }
 
-    .presentacion {
-        display: flex;
-        justify-content: center;
-        margin-top: 1200px;
-    }
 
-    .cardpresen {
-        height: auto;
-        padding: 200px;
-        border-radius: 50px;
-    }
 
-    .cardpresen .parrafo {
-        width: 300%;
 
-        margin: 0;
-        padding: 0;
-    }
-    .botones{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 50px;
-    }
-    .videoBienvenidos{
+
+
+
+    .videoBienvenidos {
         display: flex;
         flex-wrap: wrap;
     }
-    .videoBienvenidos .tituloBienvenidos{
+
+    .videoBienvenidos .tituloBienvenidos {
         width: 100%;
         justify-content: center;
     }
+
+    
 }
 
 /* estilos para el boton de siembra*/
@@ -763,13 +780,13 @@ article:has(:hover, :focus) {
 
 
 
-  
-   
 
- 
-  }
-  
-  .icon-1 {
+
+
+
+}
+
+.icon-1 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -778,9 +795,9 @@ article:has(:hover, :focus) {
     height: auto;
     transition: all .5s ease-in-out;
     z-index: -1;
-  }
-  
-  .icon-2 {
+}
+
+.icon-2 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -789,9 +806,9 @@ article:has(:hover, :focus) {
     height: auto;
     transition: all .5s ease-in-out;
     z-index: -2;
-  }
-  
-  .icon-3 {
+}
+
+.icon-3 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -800,9 +817,9 @@ article:has(:hover, :focus) {
     height: auto;
     transition: all .5s ease-in-out;
     z-index: -2;
-  }
-  
-  .icon-4 {
+}
+
+.icon-4 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -811,9 +828,9 @@ article:has(:hover, :focus) {
     height: auto;
     transition: all .5s ease-in-out;
     z-index: -2;
-  }
-  
-  .icon-5 {
+}
+
+.icon-5 {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -822,50 +839,50 @@ article:has(:hover, :focus) {
     height: auto;
     transition: all .5s ease-in-out;
     z-index: -2;
-  }
-  
-  .siembra:hover {
+}
+
+.siembra:hover {
     padding: 13px 25px;
     border-radius: 8px 8px 24px 24px;
-  }
-  
-  .siembra:hover .icon-1 {
+}
+
+.siembra:hover .icon-1 {
     top: -250%;
     left: 50%;
     transform: translate(-50%, 0);
     width: 50px;
     height: auto;
     animation: inIcon1 1s ease .45s forwards;
-  }
-  
-  @keyframes inIcon1 {
+}
+
+@keyframes inIcon1 {
     0% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  
+
     25% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(5deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(5deg);
     }
-  
+
     50% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(1deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(1deg);
     }
-  
+
     65% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(3deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(3deg);
     }
-  
+
     100% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  }
-  
-  .siembra:hover .icon-2 {
+}
+
+.siembra:hover .icon-2 {
     position: absolute;
     top: -200%;
     left: 90%;
@@ -873,36 +890,36 @@ article:has(:hover, :focus) {
     width: 75px;
     height: auto;
     animation: inIcon2 1s ease .45s forwards;
-  }
-  
-  @keyframes inIcon2 {
+}
+
+@keyframes inIcon2 {
     0% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  
+
     35% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(10deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(10deg);
     }
-  
+
     50% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(4deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(4deg);
     }
-  
+
     80% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(5deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(5deg);
     }
-  
+
     100% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  }
-  
-  .siembra:hover .icon-3 {
+}
+
+.siembra:hover .icon-3 {
     position: absolute;
     top: -130%;
     left: 20%;
@@ -910,26 +927,26 @@ article:has(:hover, :focus) {
     width: 60px;
     height: auto;
     animation: inIcon3 1s ease .45s forwards;
-  }
-  
-  @keyframes inIcon3 {
+}
+
+@keyframes inIcon3 {
     0% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  
+
     35% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(-2deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-2deg);
     }
-  
+
     100% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  }
-  
-  .siembra:hover .icon-4 {
+}
+
+.siembra:hover .icon-4 {
     position: absolute;
     top: -300%;
     left: 10%;
@@ -937,26 +954,26 @@ article:has(:hover, :focus) {
     width: 85px;
     height: auto;
     animation: inIcon4 1s ease .45s forwards;
-  }
-  
-  @keyframes inIcon4 {
+}
+
+@keyframes inIcon4 {
     0% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  
+
     40% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(-3deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-3deg);
     }
-  
+
     100% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  }
-  
-  .siembra:hover .icon-5 {
+}
+
+.siembra:hover .icon-5 {
     position: absolute;
     top: -350%;
     left: 90%;
@@ -964,42 +981,42 @@ article:has(:hover, :focus) {
     width: 85px;
     height: auto;
     animation: inIcon5 1s ease .45s forwards;
-  }
-  
-  @keyframes inIcon5 {
+}
+
+@keyframes inIcon5 {
     0% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  
+
     35% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(-3deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-3deg);
     }
-  
+
     100% {
-      transform-origin: 0 100%;
-      transform: translate(-50%, 0) rotate(0deg);
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
     }
-  }
-  
-  .fil-leaf-1 {
+}
+
+.fil-leaf-1 {
     fill: #7B9B3A
-  }
-  
-  .fil-leaf-2 {
+}
+
+.fil-leaf-2 {
     fill: #556729;
     fill-rule: nonzero
-  }
-  
-  .fil-leaf-3 {
+}
+
+.fil-leaf-3 {
     fill: #556729
-  }
-  
-  .fil-leaf-4 {
+}
+
+.fil-leaf-4 {
     fill: #3C4819
-  }
-  
-  .fil-leaf-5 {
+}
+
+.fil-leaf-5 {
     fill: #3C4819
-  }
+}

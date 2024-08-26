@@ -68,3 +68,11 @@
     font-size: 1em; /* Tamaño de fuente */
     line-height: 1.5; /* Altura de línea */
 }
+@media only screen and (max-width: 979px) {
+    .actividades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

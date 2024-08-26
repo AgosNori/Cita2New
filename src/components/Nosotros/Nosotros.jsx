@@ -13,7 +13,10 @@ function Nosotros() {
                     <img className='fotoPastor' src='public\Pastor.jpg' width="550"></img>
                 </div>
                 <div className='textoDescrip'>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias minima reprehenderit sit impedit distinctio unde cupiditate non est sed quam exercitationem optio, sint neque, praesentium explicabo nostrum laborum suscipit doloribus odit cum libero nihil maiores maxime? Corporis suscipit mollitia, illo accusantium est quae quidem, sunt, beatae recusandae unde dolores exercitationem!</p>
+                    <p>La vida del pastor es una vocación llena de desafíos, sacrificios y bendiciones. El pastor lleva la carga de cuidas las almas de la congregación. Esto implica orar por ellos, aconsejarlos, visitarlos en momentos de necesidad y guiarlos en su caminar con Dios. La responsabilidad de predicar la Palabra de Dios con fidelidad y amor es un peso significativo. 
+                        El pastor estudia, prepara las predicas y ministra incluso cunado su propio corazon está afligido. Las emergencias, las visitas hospitalarias, los funerales y las reuniones con miembros de la iglesia pueden surgiri en cualquier momento. 
+                        Esto requiere de su flexibilidad y sacrificio personal.
+                    </p>
                 </div>
             </div>
             <div className='mision'>
@@ -22,10 +25,12 @@ function Nosotros() {
                 </div>
                 <div className='cuerpoMision'>
                     <div className='textoMision'>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid hic eos fuga possimus consequuntur similique blanditiis! Alias modi a fugit numquam nulla dicta eveniet quod necessitatibus. Natus labore in ex distinctio quos cum sequi officiis blanditiis. Rerum provident voluptate optio quam rem similique iste itaque quibusdam incidunt animi, aspernatur at qui, sit ratione non.</p>
+                        <p>Seguimos la visión de Jesús: alcanzar a las multitudes con el mensaje del Evangelio. Al igual que Él, tambien tenemos un método claro: formar líderes apasionadso por la evangelización y el discipulado. Para lograrlo, hemos construido la Escalera del Éxito, compuesta por cuatro pasos fundamentales: Ganar, Consolidar, Discipular y Enviar.
+
+                        </p>
                     </div>
                     <div className='foticos'>
-                        <img className='foto1' src='public\matheus-ferrero-TkrRvwxjb_8-unsplash.jpg' width="400" />
+                        <img className='foto1' src='./Galeria9.jpg' width="400" />
                         <img className='foto2' src='public\priscilla-du-preez-mKJUoZPy70I-unsplash.jpg' width="400" />
                     </div>
                 </div>

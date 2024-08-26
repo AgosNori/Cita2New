@@ -10,7 +10,8 @@ function Hombres() {
                     </div>
                 </div>
                 <div className="text">
-                    <p className="parrafoHombres">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum aliquam cum sunt consequuntur necessitatibus reprehenderit voluptate assumenda autem at veritatis laborum consequatur, est ipsa. Consectetur debitis molestiae doloremque molestias voluptatum. Nam tenetur molestias maxime beatae nostrum suscipit assumenda est voluptatibus, rerum temporibus sunt dolore quia laborum esse possimus quos et quibusdam nobis sapiente quam animi soluta voluptate ab reprehenderit. Ipsam, dolorem? Esse laborum quo vitae laudantium perferendis debitis laboriosam ad.</p>
+                    <p className="parrafoHombres">El discipulado de hombres en nuestra iglesia es un programa diseñado para fortalecer y edificar la fe, carácter y liderazgo de los hombres en nuestra comunidad. A través de reuniones regulares, estudios bíblicos, tiempo de oración y actividades prácticas, buscamos fomentar relaciones auténticas entre los hombres, inspirar un compromiso más profundo con Dios y equiparlos para enfrentar los desafíos de la vida cotidiana desde una perspectiva cristiana. Nuestro objetivo es cultivar hombres piadosos, íntegros y valientes que puedan impactar positivamente a sus familias, lugares de trabajo y comunidades, reflejando el carácter de Cristo en todas sus acciones y decisiones.<br /> <br />
+                    Te esperamos!</p>
                 </div>
             </div>
             <div className='titulo'>

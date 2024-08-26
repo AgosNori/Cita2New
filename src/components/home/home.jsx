@@ -23,11 +23,12 @@ function Home() {
                 <img src='./sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
             </div>*/}
             <div className='presentacion'>
+                <h1> Bienvenidos a la Iglesia de la Familia</h1>
                 <div className='cardBack'>
                 </div>
                 <div className='cardpresen'>
                     <div className='parrafo'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error nisi itaque iste, voluptates minus enim molestiae facilis, beatae animi quibusdam optio qui suscipit eligendi tempore recusandae officia sunt, provident quas autem corporis illum quidem? Quam officia quo quae dolorem dolorum pariatur similique maxime omnis laudantium. Expedita id eveniet vel! Architecto magnam suscipit at minus est atque officiis rerum, voluptatum ipsam officia soluta sapiente, enim ea placeat nisi vitae incidunt totam? Officiis ipsum, voluptatum aliquid maiores laudantium facilis, nulla qui ex porro itaque dicta excepturi culpa. Quasi a deserunt saepe nobis, commodi omnis sequi in, qui, exercitationem laudantium suscipit nemo?</p>
+                        <p>Creemos en una vida transformada por el poder del amor de Dios. Nuestro propósito es inspirar y equipar a las personas para vivir una vida plena y significativa en Cristo.  Nuestra misión es proporcionar un lugar donde cada persona pueda experimentar el amor incondicional de Dios, crecer en su relación con Él y ser capacitado para marcar una diferencia positiva en el mundo.</p>
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@ function Home() {
 
                     </Link>
                 </div>
-                <div className='btnSembrar'>
+           <div className='btnSembrar'>
 
                     <Link to="https://www.mercadopago.com.ar/paid?CODE=V1C70X&utm_source=google&utm_medium=cpc&utm_campaign=MLA_MP_G_AO_ALL_BRD_SEARCH_MP_EXACT&matt_tool=28766038&matt_word=MLA_MP_Sellers_AO_X_G_Search_X_BrandKW_X&gad_source=1&gclid=Cj0KCQjwzva1BhD3ARIsADQuPnXxQwK3R2wQQF0ckBXCY0-3hpRbm31P45jUTKuTubgvTb2qrPG5bvAaAotCEALw_wcB" className="siembra">Sembrar aquí
                         <div className="icon-1">
@@ -84,7 +85,7 @@ function Home() {
                                 <div className="ag-courses-item_title">Reunión General</div>
 
                                 <div className="ag-courses-item_date-box">
-                                    <span className="ag-courses-item_date">Domingos 19:30hs</span>
+                                    <span className="ag-courses-item_date">Mier, Vier y Domingos 19:00hs</span> 
                                 </div>
                             </a>
                         </div>
@@ -117,10 +118,10 @@ function Home() {
                             <a href="#" className="ag-courses-item_link">
                                 <div className="ag-courses-item_bg"></div>
 
-                                <div className="ag-courses-item_title">Pre y Adolescentes</div>
+                                <div className="ag-courses-item_title">Cadenas rotas</div>
 
                                 <div className="ag-courses-item_date-box">
-                                    <span className="ag-courses-item_date">Sabado 20:00 hs</span>
+                                    <span className="ag-courses-item_date">Jueves 20:00 hs</span>
                                 </div>
                             </a>
                         </div>
@@ -140,7 +141,7 @@ function Home() {
                             <a href="#" className="ag-courses-item_link">
                                 <div className="ag-courses-item_bg"></div>
 
-                                <div className="ag-courses-item_title">Jóvenes</div>
+                                <div className="ag-courses-item_title">Pre, Ados y Jovenes</div>
 
                                 <div className="ag-courses-item_date-box">
                                     <span className="ag-courses-item_date">Sábados 20:00hs</span>

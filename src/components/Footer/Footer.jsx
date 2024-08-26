@@ -27,11 +27,11 @@ function FooterMusic() {
 
                 <div className="musica-links">
                     <a className='aFooter' href="/ministerios">Ministerios</a>
-                    <a className='aFooter' href="http://citaconlavida.com.ar">Casa Central</a>
-                    <a className='aFooter' href="/calendario">Calendario</a>
-                    <a className='aFooter' href="https://institutocitaconlavida.com">Instituto Biblico</a>
-                    <a className='aFooter' href="http://citaconlavida.com.ar/radiohtml.html">Radio Amistad</a>
-                    <a className='aFooter' href="https://www.youtube.com/@citaconlavidamontecristo3858">Canal de YouTube</a>
+                    <a className='aFooter' href="http://citaconlavida.com.ar" target='_blank'>Casa Central</a>
+                    <a className='aFooter' href="/calendario" target='_blank'>Calendario</a>
+                    <a className='aFooter' href="https://institutocitaconlavida.com" target='_blank'>Instituto Biblico</a>
+                    <a className='aFooter' href="http://citaconlavida.com.ar/radiohtml.html" target='_blank'>Radio Amistad</a>
+                    <a className='aFooter' href="https://www.youtube.com/@citaconlavidamontecristo3858" target='_blank'>Canal de YouTube</a>
 
                 </div>
                

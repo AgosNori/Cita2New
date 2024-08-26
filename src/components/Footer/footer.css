@@ -68,34 +68,14 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .musica-links {
+  .footer-musicos{
+    height: auto;
+  }
+  .musica-links{
+    display: flex;
     flex-direction: column;
     height: auto;
   }
-
-  .musica-social {
-    width: 90%;
-  }
-
-  .iconos {
-    flex-direction: column;
-  }
-
-  .musica-social .iconoRS {
-    width: 30px;
-  }
 }
 
-@media (max-width: 480px) {
-  .musica-links {
-    gap: 1em;
-  }
 
-  .musica-social {
-    width: 100%;
-  }
-
-  .musica-social .iconoRS {
-    width: 25px;
-  }
-}

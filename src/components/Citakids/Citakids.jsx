@@ -41,7 +41,7 @@ function Citakids({ images }) {
   return (
     <div className="kids">
 
-        
+
       <div className="fotoprincipalKids">
         <div className="parallax-kids">
           <p>
@@ -54,29 +54,31 @@ function Citakids({ images }) {
       <div>
         <h3>Ministerio de Niños.</h3>
       </div>
-
-      <div className="texto-kids">
-        <p>
-          El objetivo principal del ministerio de niños es ayudar a los niños a
-          escuchar y responder al evangelio. Es un espacio donde los pequeños
-          pueden aprender sobre Dios, Jesús y la Biblia de manera accesible y
-          significativa. Además, el ministerio de niños proporciona un contexto
-          para la amistad y relaciones seguras entre generaciones. Los niños
-          interactúan con adultos piadosos que les guían y les muestran el amor
-          de Cristo. Los niños aprenden el contenido y la importancia de las
-          Escrituras. Se les enseña sobre la creación, el pecado, la gracia, la
-          salvación y cómo vivir una vida centrada en Jesús. El enfoque debe ser
-          sano y divertido, adaptado a la edad de cada niño. Las lecciones
-          bíblicas, canciones, juegos y actividades son apropiadas y atractivas.
-          Los niños crecen en su fe y desarrollan una relación personal con
-          Jesús. El ministerio de niños es más grande de lo que imaginamos. No
-          solo impacta a los niños, sino también a las familias y a toda la
-          iglesia.
-        </p>
+      <div className="bannerKids">
+        <div className="texto-kids">
+          <p>
+            El objetivo principal del ministerio de niños es ayudar a los niños a
+            escuchar y responder al evangelio. Es un espacio donde los pequeños
+            pueden aprender sobre Dios, Jesús y la Biblia de manera accesible y
+            significativa. Además, el ministerio de niños proporciona un contexto
+            para la amistad y relaciones seguras entre generaciones. Los niños
+            interactúan con adultos piadosos que les guían y les muestran el amor
+            de Cristo. Los niños aprenden el contenido y la importancia de las
+            Escrituras. Se les enseña sobre la creación, el pecado, la gracia, la
+            salvación y cómo vivir una vida centrada en Jesús. El enfoque debe ser
+            sano y divertido, adaptado a la edad de cada niño. Las lecciones
+            bíblicas, canciones, juegos y actividades son apropiadas y atractivas.
+            Los niños crecen en su fe y desarrollan una relación personal con
+            Jesús. El ministerio de niños es más grande de lo que imaginamos. No
+            solo impacta a los niños, sino también a las familias y a toda la
+            iglesia.
+          </p>
+        </div>
       </div>
+
       <div className="linea-horizontal"></div>
       <div className="cuadradoColores">
-       
+
       </div>
       <div className="video-containerKids">
         <video

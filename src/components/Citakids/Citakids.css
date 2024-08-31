@@ -10,7 +10,10 @@
 }
 
 h3 {
-  margin-top: 20px;
+
+  margin-top:40px;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .fotoprincipalKids {
@@ -37,7 +40,8 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -88,7 +92,7 @@ h3 {
   display: flex;
   text-align: center;
   width: 80%;
-  margin: 40px;
+  margin: 60px;
 }
 
 

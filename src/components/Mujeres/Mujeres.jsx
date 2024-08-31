@@ -27,8 +27,8 @@ function Mujeres() {
         <div className='cardsInfo'>
           <div className='fondoCard'>
             <div className='cardMujeres'>
-     
-              <p className='DescripMuj'>Más bien, que la belleza de ustedes sea la incorruptible, la que procede de lo íntimo del corazón y consiste en un espiritu humilde y apacible. Esta sí que tiene mucho valor delante de Dios.<br/><br/> 1 Pedro 3:4 (NVI)</p>
+
+              <p className='DescripMuj'>Más bien, que la belleza de ustedes sea la incorruptible, la que procede de lo íntimo del corazón y consiste en un espiritu humilde y apacible. Esta sí que tiene mucho valor delante de Dios.<br /><br /> 1 Pedro 3:4 (NVI)</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Mujeres() {
           <div className='fondoCard'>
             <div className='cardMujeres'>
               <h2 className='discipuladosMuj'>Con que te encontrarás</h2>
-              <p className='DescripMuj'>- Enseñanza biblica <br/> - Apoyo y Comunidad <br/> - Oración y alabanza</p>
+              <p className='DescripMuj'>- Enseñanza biblica <br /> - Apoyo y Comunidad <br /> - Oración y alabanza</p>
             </div>
           </div>
         </div>

@@ -73,21 +73,21 @@ function Matrimonios() {
       </div>
       <section className="recursos-matrimonios">
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
+          <img className="img-card-matrimonio" src="./Matrimonios2.webp"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://www.youtube.com/@citaconlavidamontecristo3858" className="btn-card-matrimonio">
             Video.
           </Link>
         </div>
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
+          <img className="img-card-matrimonio" src="./Matrimonios3.jpg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://www.biblegateway.com/?language=es" className="btn-card-matrimonio">
             Biblia.
           </Link>
         </div>
         <div className="card-matrimonios">
-          <img className="img-card-matrimonio" src="./fotoNovedades.jpeg"></img>
+          <img className="img-card-matrimonio" src="./Matrimonios4.jpg"></img>
           <h3 className="parrafo-card-matrimonio"></h3>
           <Link to="https://libreriapeniel.com/?s=matrimonio&post_type=product&type_aws=true" className="btn-card-matrimonio">
             Libros.

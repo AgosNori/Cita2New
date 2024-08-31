@@ -7,72 +7,109 @@
     margin-top: -40px;
 }
 
+.parallax-innerHombres .descHom {
+    font-weight: 200;
+    margin: 40px auto;
+    font-size: 30px;
+}
+
+.parallax-innerHombres h2 {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: end;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
 .parallax-innerHombres {
     padding: 20% 0;
     width: 80%;
     display: flex;
 }
-.text{
-    width: 90%;
+
+.text {
+    width: 70%;
     text-align: justify;
-   margin: 30px auto;
+    margin: 100px auto;
 }
-/* Estilo predeterminado para las tarjetas */
-.actividades{
+
+
+.actividades {
     display: flex;
     justify-content: center;
 }
-.titulo h3{
+
+.titulo h3 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     font-weight: 200;
     margin: 30px;
 }
+
 .card {
 
-    width: 340px; /* Ancho de la tarjeta */
+    width: 340px;
 
-    border: 1px solid #ccc; /* Borde de la tarjeta */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    overflow: hidden; /* Ocultar desbordamiento */
-    margin: 16px; /* Margen */
-    transition: transform 0.2s; /* Transición suave al pasar el mouse */
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+
+    margin: 16px;
+
+    transition: transform 0.2s;
+
 }
 
 .card:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.05);
+
 }
 
 .card img {
-    width: 130%; /* Ancho completo de la imagen */
-    height: 400px; /* Altura automática para mantener la proporción */
-    display: block; /* Bloque para eliminar espacios en línea */
+    width: 130%;
+
+    height: 400px;
+
+    display: block;
+
 }
 
-/* Opcional: estilo para contenido dentro de la tarjeta */
 .card-content {
-    padding: 16px; /* Espaciado interno */
-    font-family: Arial, sans-serif; /* Fuente */
-    color: #333; /* Color del texto */
+    padding: 16px;
+
+    font-family: Arial, sans-serif;
+
+    color: #333;
+
 }
 
 .card-content h2 {
-    margin: 0 0 16px 0; /* Margen */
-    font-size: 1.5em; /* Tamaño de fuente */
+    margin: 0 0 16px 0;
+
+    font-size: 1.5em;
+
 }
 
 .card-content p {
-    margin: 0; /* Margen */
-    font-size: 1em; /* Tamaño de fuente */
-    line-height: 1.5; /* Altura de línea */
+    margin: 0;
+
+    font-size: 1em;
+
+    line-height: 1.5;
+
 }
+
 @media only screen and (max-width: 979px) {
-    .actividades{
+    .actividades {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
 }

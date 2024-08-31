@@ -20,7 +20,7 @@ function Jovenes({ images }) {
           <div className='cardsInfo'>
             <div className='fondoCard'>
               <div className='cardJ'>
-                <h2 className='discipuladosJovenes'>Ministerio de PreAdolescentes</h2>
+                <h2 className='discipuladosJovenes'>Ministerio de Preados</h2>
                 <p className='descJ'>Etapa Crucial: La preadolescencia es un período de transición entre la niñez y la adolescencia. Los preadolescentes necesitan un espacio seguro donde puedan explorar su fe, hacer preguntas y recibir orientación.
                   El ministerio con preadolescentes está centrado en establecer sólidos fundamentos bíblicos. Es el momento adecuado para enseñarles sobre la gracia, la salvación y la vida en Cristo.</p>
               </div>
@@ -34,7 +34,7 @@ function Jovenes({ images }) {
           <div className='cardsInfo'>
             <div className='fondoCard'>
               <div className='cardJ'>
-                <h2 className='discipuladosJovenes'>Ministerio de Adolescentes</h2>
+                <h2 className='discipuladosJovenes'>Ministerio de Ados</h2>
                 <p className='descJ'>Desafíos de la Adolescencia: La adolescencia es una etapa de cambios físicos, emocionales y sociales. Los adolescentes enfrentan desafíos como la identidad, las presiones sociales y las dudas de fe.
                   El ministerio con adolescentes debe ir más allá de la superficialidad. Predicar la Palabra de Dios con fidelidad y abordar temas relevantes para ellos es esencial.</p>
               </div>

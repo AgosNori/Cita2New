@@ -17,14 +17,14 @@
 .tituloNosotros {
     position: relative;
     margin-top: -10px;
-height: 100px;
+    height: 100px;
 }
 
 .tituloNosotros .ttNosotros {
     font-family: "Raleway", sans-serif;
 
 
-font-weight: 400;
+    font-weight:300;
 
     display: flex;
     font-size: 50px;
@@ -43,6 +43,7 @@ font-weight: 400;
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 .descripcion p {
@@ -99,7 +100,6 @@ font-weight: 400;
     margin: 220px 150px;
 }
 
-/* estilos boton para ir a ministerios */
 
 .ministeriosBoton {
     margin: 300px;

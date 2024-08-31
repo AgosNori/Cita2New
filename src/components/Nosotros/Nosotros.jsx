@@ -31,7 +31,7 @@ function Nosotros() {
                     </div>
                     <div className='foticos'>
                         <img className='foto1' src='./Galeria9.jpg' width="400" />
-                        <img className='foto2' src='public\priscilla-du-preez-mKJUoZPy70I-unsplash.jpg' width="400" />
+                        <img className='foto2' src='./App11.jpg' width="400" />
                     </div>
                 </div>
 

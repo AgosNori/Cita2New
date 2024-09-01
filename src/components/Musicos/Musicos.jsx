@@ -32,7 +32,7 @@ function Musicos({ images }) {
                         allowFullScreen
                     ></iframe> */}
                     <div className="drop1-musicos">
-                        <h2>Desarrollá tu don al servicio de Dios!</h2>
+                        <h2 className='ttMusicos'>Desarrollá tu don al servicio de Dios!</h2>
                         <img className="imagen-musicos" src="./bannerMusicos.jpeg"></img>
                     </div>
 
@@ -42,7 +42,7 @@ function Musicos({ images }) {
             <section className='paragraphs-musicos'>
                 <div className="paragraphs">
                     <div className="paragraph">
-                        <h2>Ministerio de Música</h2>
+                        <h2 className='ttParag'>Ministerio de Música</h2>
                         <p>Más allá de la excelencia musical, debemos concentrarnos en los objetivos de un ministerio
                             musical eficaz. La música tiene la capacidad
                             divina de conmovernos e inspirarnos. los objetivos de la adoración incluyen,
@@ -56,7 +56,7 @@ function Musicos({ images }) {
                         <img></img>
                     </div>
                     <div className="paragraph">
-                        <h2>Escuela de Musica</h2>
+                        <h2 className='ttParag'>Escuela de Musica</h2>
                         <p>Bajo la órbita del Ministerio de Música funcoina nuestra Escuela de Música,  en donde podrás expresar y desarrollar tu don al servicio de Dios, juanto a la direccion de colaboradores capacitados y asi poder brindar un servicio de excelencia como nuestro padre lo merece. En la misma ofrecemos calses en distintos talleres como lo son el de : guitarra, batería , teclado y tambien podras expesarte en el arte que en la manos correcta agradará a nuestro padre; para lo cual contamos con el grupo de danza y bandera.  </p>
                         <img></img>
                     </div>

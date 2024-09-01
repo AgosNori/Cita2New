@@ -49,9 +49,9 @@ function Campamento({ campamentoImages }) {
         </div>
       </section>
       <div className="content-campamento">
-        <h2>Campamentos de la Iglesia Cita Con La Vida Montecristo</h2>
-        <p>
-          En el mes de febreo se desarrollaron los campamentos para niños de 10 a 18 años, en los cuales se
+        <h2 className="ttCampa">Campamentos de la Iglesia Cita Con La Vida Montecristo</h2>
+        <p className="pCampa">
+          En el mes de febrero se desarrollaron los campamentos para niños de 10 a 18 años, en los cuales se
           vivieron días expectaculares en la presencia de Dios!;
           Donde se les impartió palabra y compartieron momentos únicos en un lugar adaptado para el disfrute en tiempo estival;
           con juegos acuáticos y piscinas adaptadas para todas las edades.

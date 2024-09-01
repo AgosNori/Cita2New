@@ -11,20 +11,17 @@
 }
 
 
-
-
-/* estilos titulo nosotros */
 .tituloNosotros {
     position: relative;
-    margin-top: -10px;
-    height: 100px;
+    margin-top: -15px;
+    height: 35px;
 }
 
 .tituloNosotros .ttNosotros {
     font-family: "Raleway", sans-serif;
 
 
-    font-weight:300;
+    font-weight:250;
 
     display: flex;
     font-size: 50px;
@@ -35,6 +32,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+    height: 35px;
+
 }
 
 .descripcion {
@@ -73,8 +72,8 @@
 }
 
 .textoMision {
-    width: 50%;
-    margin: 30px;
+    width: 45%;
+    margin:80px;
 }
 
 .textoMision p {

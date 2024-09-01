@@ -6,7 +6,7 @@ function Nosotros() {
 
             </div>
             <div className='tituloNosotros'>
-                <h2 className='ttNosotros'>Nosotros</h2>
+                <h3 className='ttNosotros'>Nosotros</h3>
             </div>
             <div className='descripcion'>
                 <div className='imagenPastor'>
@@ -37,9 +37,9 @@ function Nosotros() {
 
             </div>
             <div className='ministeriosBoton'>
-                <h2 className='irTitulo'>Te invitamos a conocer nuestros minsiterios</h2>
+                <h2 className='irTitulo'>Te invitamos a conocer nuestros ministerios</h2>
                 <button className='irMinis'>
-                    <span class="span-mother">
+                    <span className="span-mother">
                         <span>C</span>
                         <span>o</span>
                         <span>n</span>
@@ -48,7 +48,7 @@ function Nosotros() {
                         <span>e</span>
                         <span>r</span>
                     </span>
-                    <span class="span-mother2">
+                    <span className="span-mother2">
                         <span>C</span>
                         <span>o</span>
                         <span>n</span>

@@ -19,7 +19,7 @@ h3 {
     text-align: center;
 }
 
-span {
+.spanForm {
     margin-bottom: 20px;
     color: #666;
     font-size: 16px;
@@ -35,7 +35,7 @@ input, select {
 }
 
 input[type="date"] {
-    font-family: sans-serif; /* Para asegurar que el date input tenga un buen estilo en todos los navegadores */
+    font-family: sans-serif; 
 }
 
 input::placeholder, select {

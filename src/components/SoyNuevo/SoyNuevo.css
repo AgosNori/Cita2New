@@ -1,79 +1,42 @@
-.img-nuevo {
-    width: 100%;
-    height: auto;
-
-}
-
-.soy-nuevo {
-
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.nav-soynuevo {
+.tarjetitaNuevo {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-.item-soynuevo {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-.item-soynuevo li {
-    margin-left: 20px;
-}
-
-.item-soynuevo li a {
-
-    text-decoration: none;
-    color: #000;
-}
-
-.item-soynuevo li a img {
-    margin-right: 5px;
-}
-
-.logo-soy-nuevo {
-    width: 150px;
-    height: auto;
+    justify-content: center;
+    margin: 50px;
 }
 
 .frm-contacto {
+    color: white;
     background-color: black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    color: #d4cece;
+    border-radius: 30px;
+    width: 80%;
+    padding: 50px;
+    height: auto;
+    margin: 40px auto; 
+    box-shadow: 0 3px 10px rgba(119, 119, 119, 0.929);
 }
 
-.frm label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.frm label span {
-    flex: 0 0 40%;
-    margin-right: 20px;
-}
-
-.frm input {
-    width: 100%;
-    padding: 5px;
+.ttCSN {
+    font-weight: 250;
+    margin: 20px 0;
 }
 
 .btn-frm-contacto {
-    width: 100%;
-    max-width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    align-self: center;
+    padding: 12px;
+    display: flex;
+    background-color: #6B030A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .btn-frm-contacto:hover {
+    background-color: #6b030a27;
+  }
+
+.SeccionMateriales {
+    margin: 50px;
 }
 
 h3 {
@@ -93,6 +56,11 @@ h3 {
     max-width: 200px;
     height: 60px;
     margin-bottom: 10px;
+
+}
+.btn-material{
+    color: white;
+    text-decoration: none;
 }
 
 .cardSoyNuevo {
@@ -126,7 +94,7 @@ h3 {
 
 .cardSoyNuevo .btn-soyNuevo:hover {
     background-color: rgba(0, 0, 0, 0.7);
- 
+
 }
 
 .bienvenida {
@@ -142,4 +110,17 @@ h3 {
     padding: 20% 0;
     width: 50%;
     display: flex;
+}
+
+.ttBienv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 200;
+
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

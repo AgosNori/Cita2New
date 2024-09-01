@@ -8,36 +8,39 @@ function SoyNuevo() {
 
         <div className="bienvenida">
           <div className="parallax-innerBienvenida">
+            <h2 className='ttBienv'>De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí, todas son hechas nuevas. <br /><br /> 2 Corintios 5:17 (RVR)</h2>
+          </div>
+        </div>
+        <div className='tarjetitaNuevo'>
+          <div className="frm-contacto">
+            <h2 className='ttCSN'>¡Bienvenido!</h2>
+            <p>
+              ¡Bienvenidos a la Iglesia Cita con la Vida Monte Cristo! Aquí encontrarás comunidad, amor y guía espiritual. Juntos crecemos en fe, esperanza y amor. ¡Únete a nuestra familia hoy mismo!
+            </p>
+            <form className="frm-contacto">
+              <div className="frm">
+                <label>
+                 
+                  <input className='inputCSN' type="text" placeholder="Ingresa tu nombre" />
+                </label>
+                <label>
+                
+                  <input className='inputCSN'
+                    type="email"
+                    placeholder="Ingresa tu correo electrónico"
+                  />
+                </label>
+                <button type="submit" className="btn-frm-contacto">
+                  Conecta!
+                </button>
+              </div>
+            </form>
           </div>
         </div>
 
 
-        <div className="frm-contacto">
-          <h2>¡Bienvenido!</h2>
-          <p>
-            ¡Bienvenidos a la Iglesia Cita con la Vida Monte Cristo! Aquí encontrarás comunidad, amor y guía espiritual. Juntos crecemos en fe, esperanza y amor. ¡Únete a nuestra familia hoy mismo!
-          </p>
-          <form className="frm-contacto">
-            <div className="frm">
-              <label>
-                <span>Nombre:</span>
-                <input type="text" placeholder="Ingresa tu nombre" />
-              </label>
-              <label>
-                <span>Correo:</span>
-                <input
-                  type="email"
-                  placeholder="Ingresa tu correo electrónico"
-                />
-              </label>
-              <button type="submit" className="btn-frm-contacto">
-                Conecta!
-              </button>
-            </div>
-          </form>
-        </div>
 
-        <div>
+        <div className='SeccionMateriales'>
           <h3>Material de Ayuda</h3>
         </div>
         <div className="material-lectura">

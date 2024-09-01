@@ -18,7 +18,7 @@ function FormCampa() {
             <img src='public\Logo Oficial CitaMonte.png' width="100"/>
                 <h3>Campamento 2025</h3>
                
-                <span>¡Te esperamos para disfrutar junto a Dios un verano inolvidable!</span>
+                <span className='spanForm'>¡Te esperamos para disfrutar junto a Dios un verano inolvidable!</span>
            
                 <input type='text' placeholder='Nombre Completo' />
                 <input type='email' placeholder='example@example.com' />

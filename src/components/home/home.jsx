@@ -23,7 +23,7 @@ function Home() {
                 <img src='./sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
             </div>*/}
             <div className='presentacion'>
-                <h1> Bienvenidos a la Iglesia de la Familia</h1>
+                <h1 className='ttPresen'> Bienvenidos a la Iglesia de la Familia</h1>
                 <div className='cardBack'>
                 </div>
                 <div className='cardpresen'>

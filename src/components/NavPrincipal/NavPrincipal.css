@@ -1,41 +1,26 @@
-.headerNav {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 0;
-    box-sizing: border-box;
-    height: 70px;
-    z-index: 1000;
+.NavPrincipalH {
+
+
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\dist\musica.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
 }
 
-.background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 650px;
-    z-index: -3;
-}
 
 .nav {
     display: flex;
     justify-content: space-around;
 }
 
-.logoNav {
-    width: 10em;
+.logoNavP {
+    width: 7em;
     height: auto;
+    margin: 30px;
     margin-right: auto;
 }
 
-.headerNav .navNav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.navNav {
+.navNavP {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,18 +28,28 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.navNav ul {
-    display: flex;
-    list-style: none;
-    gap: 1.875em;
+.headerNavP .navNavP ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     background-color: transparent;
 }
 
-.navNav ul li {
+
+
+.navNavP ul {
+    display: flex;
+    list-style: none;
+    gap: 1.875em;
+    background-color: #0000002c;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.navNavP ul li {
     position: relative;
 }
 
-.navNav ul li::after {
+.navNavP ul li::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -65,7 +60,7 @@
     transition: background-color 0.3s ease;
 }
 
-.navNav ul li:hover::after {
+.navNavP ul li:hover::after {
     background-color: rgb(255, 255, 255);
 }
 
@@ -92,9 +87,10 @@
     padding: 10px;
     display: none;
     flex-direction: column;
+
 }
 
-.navNav ul li:hover .dropdown-menu {
+.navNavP ul li:hover .dropdown-menu {
     display: flex;
 }
 
@@ -112,11 +108,12 @@
 
 .dropdown-menu li:hover {
     background-color: #000000;
+
 }
 
 /* Modificación: Para pantallas pequeñas */
 @media (max-width: 768px) {
-    .navNav {
+    .navNavP {
         position: fixed;
         top: 0;
         right: 0;
@@ -134,17 +131,17 @@
         transform: translateX(0);
     }
 
-    .navNav ul {
+    .navNavP ul {
         flex-direction: column;
         text-align: center;
         padding: 0;
     }
 
-    .navNav ul li {
+    .navNavP ul li {
         margin: 20px 0;
     }
 
-    .navNav ul li a {
+    .navNavP ul li a {
         padding: 10px 0;
         font-size: 1.2rem;
     }
@@ -182,9 +179,11 @@
 
 /* Ajustes para tablets */
 @media (max-width: 1024px) {
-    .navNav{
-    width: 80%;    }
-    .navNav ul li a {
+    .navNavP {
+        width: 80%;
+    }
+
+    .navNavP ul li a {
         padding: 10px 15px;
     }
 }

@@ -22,6 +22,7 @@ function Home() {
             <div className='banner'>
                 <img src='./sean-oulashin-KMn4VEeEPR8-unsplash.jpg' width="100%" height="600px" />
             </div>*/}
+
             <div className='presentacion'>
                 <h1 className='ttPresen'> Bienvenidos a la Iglesia de la Familia</h1>
                 <div className='cardBack'>
@@ -52,7 +53,7 @@ function Home() {
 
                     </Link>
                 </div>
-           <div className='btnSembrar'>
+                <div className='btnSembrar'>
 
                     <Link to="https://www.mercadopago.com.ar/paid?CODE=V1C70X&utm_source=google&utm_medium=cpc&utm_campaign=MLA_MP_G_AO_ALL_BRD_SEARCH_MP_EXACT&matt_tool=28766038&matt_word=MLA_MP_Sellers_AO_X_G_Search_X_BrandKW_X&gad_source=1&gclid=Cj0KCQjwzva1BhD3ARIsADQuPnXxQwK3R2wQQF0ckBXCY0-3hpRbm31P45jUTKuTubgvTb2qrPG5bvAaAotCEALw_wcB" className="siembra">Sembrar aquí
                         <div className="icon-1">
@@ -85,7 +86,7 @@ function Home() {
                                 <div className="ag-courses-item_title">Reunión General</div>
 
                                 <div className="ag-courses-item_date-box">
-                                    <span className="ag-courses-item_date">Mier, Vier y Domingos 19:00hs</span> 
+                                    <span className="ag-courses-item_date">Mier, Vier y Domingos 19:00hs</span>
                                 </div>
                             </a>
                         </div>

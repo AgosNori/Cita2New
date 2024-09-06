@@ -35,16 +35,13 @@ function Nav() {
         AOS.refresh();
     }, []);
     return (
-        <>
-            <header className="headerNav">
-                <div className="background-video">
-                    <video src="./kidsabados.mp4" controls loop muted width="100%"></video>
-                </div>
+        < div className="NavPrincipalH">
+            <header className="headerNavP">
                 <div className="nav">
                     <div data-aos="fade-right">
-                        <img className="logoNav" src='./Logo RGB BLANCO.png' alt="Logo" />
+                        <img className="logoNavP" src='./Logo RGB BLANCO.png' alt="Logo" />
                     </div>
-                    <nav ref={navRef} className={`navNav ${isMenuOpen ? "responsive_nav_principal" : ""}`}>
+                    <nav ref={navRef} className={`navNavP ${isMenuOpen ? "responsive_nav_principal" : ""}`}>
                         <div data-aos="fade-left">
                             <ul>
                                 <li>
@@ -71,7 +68,7 @@ function Nav() {
                                     <Link to="#vidaiglesia">Vida de la iglesia</Link>
                                     {activeDropdown === "vidaiglesia" && (
                                         <ul className="dropdown-menu">
-                                           {/*} <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>*/}
+                                            {/*} <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>*/}
                                             <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
                                             <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
                                             <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>
@@ -94,7 +91,7 @@ function Nav() {
                     {isMenuOpen ? <FaTimes /> : <FaBars />}
                 </button>
             </header>
-        </>
+        </div>
     );
 }
 

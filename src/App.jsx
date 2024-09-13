@@ -91,7 +91,7 @@ function App() {
         <>
           <Routes>
             <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic /> </>} />
-            <Route path="nosotros" element={<><NavSecundario /><NavBorde /><Nosotros /><FooterMusic /></>} />
+            <Route path="nosotros" element={<><Nav/><NavBorde /><Nosotros /><FooterMusic /></>} />
             <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
             <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /><FooterMusic /></>} />
             <Route path="ministerios" element={<><NavSecundario /><Ministerios /><FooterMusic /></>} />

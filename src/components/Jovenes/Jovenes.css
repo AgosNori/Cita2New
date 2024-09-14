@@ -1,11 +1,15 @@
-.fotoprincipalJovenes {
-    margin-top: 0px;
-    height: 80vh;
-    background: url('C:\Users\agosn\citaNuevo\citanew\public\Jovenes1.jpg') no-repeat;
+
+
+.NavPrincipalJovenes {
+
+
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\public\Jovenes1.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-}
+    height: 750px;
+  }
+  
+  
 .img-cuadro {
     width: 200px;
     height: 200px;
@@ -21,20 +25,6 @@
     background-color: #333447;
     padding: 20px;
 }
-.parallax-inner-Jovenes {
-    padding: 20% 0;
-    width: 50%;
-    display: flex;
-}
-
-.parallax-inner-Jovenes .tituloParallaxHombre {
-    font-size: 40px;
-    color: #ffffff;
-    margin: 30px;
-    text-align: end;
-    font-weight: 200;
-    letter-spacing: 3px;
-}
 .cardsInfo {
     width: 100%;
     height: auto;
@@ -43,7 +33,7 @@
     justify-content: center;
 }
 
-.CardJovenes .cardsInfo .fondoCard {
+.CardJovenes .cardsInfoJ .fondoCardJ {
     margin: auto;
     width: 70%;
     display: flex;
@@ -80,7 +70,7 @@
 
 
 
-.cardsInfo {
+.cardsInfoJ {
     width: 100%;
     height: auto;
     background-color: #857F74;
@@ -88,7 +78,7 @@
     justify-content: center;
 }
 
-.CardJovenes .cardsInfo .fondoCard {
+.CardJovenes .cardsInfo .fondoCardJ {
     margin: auto;
     width: 70%;
     display: flex;
@@ -143,6 +133,9 @@
         width: 80%;
         max-width: 300px;
         margin: 10px 0;
+    }
+    .cardsInfoJ{
+        height: 500px;
     }
 }
 

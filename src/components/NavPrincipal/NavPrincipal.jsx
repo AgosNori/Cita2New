@@ -20,7 +20,6 @@ function Nav() {
                 navRef.current.classList.remove('responsive_nav_principal');
             }
         } else {
-            // Agrega una clase adicional para dispositivos móviles con pantallas más grandes
             navRef.current.classList.toggle('responsive_nav_large');
         }
     };

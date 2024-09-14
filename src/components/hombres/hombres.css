@@ -1,31 +1,12 @@
-.bannerHombres {
-    height: 60vh;
-    background: url('C:\Users\agosn\citaNuevo\citanew\public\DSC_1820.jpg') no-repeat;
+.NavPrincipalHombres {
+
+
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\public\DSC_1820.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    margin-top: -40px;
+    height: 750px;
 }
 
-.parallax-innerHombres .descHom {
-    font-weight: 200;
-    margin: 40px auto;
-    font-size: 30px;
-}
-
-.parallax-innerHombres h2 {
-    font-size: 60px;
-    color: #ffffff;
-    text-align: end;
-    font-weight: 500;
-    letter-spacing: 3px;
-}
-
-.parallax-innerHombres {
-    padding: 20% 0;
-    width: 80%;
-    display: flex;
-}
 
 .text {
     width: 70%;

@@ -1,26 +1,15 @@
-.fotoprincipalMatrimonios {
-  margin-top: -0px;
-  height: 80vh;
-  background: url('C:\Users\agosn\citaNuevo\citanew\public\Matrimonios1.jpeg') no-repeat;
+
+
+.NavPrincipalMatrimonios {
+
+
+  background-image: url("C:\Users\agosn\citaNuevo\citanew\public\Matrimonios1.jpeg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  height: 750px;
 }
 
-.parallax-inner-Matrimonios {
-  padding: 20% 0;
-  width: 50%;
-  display: flex;
-}
 
-.parallax-inner-Matrimonios .descMatri {
-  font-size: 40px;
-  color: #ffffff;
-  text-align: end;
-  font-weight: 200;
-  margin: 50px auto;
-  letter-spacing: 3px;
-}
 
 .titulo-matrim {
   position: absolute;
@@ -178,6 +167,9 @@ padding: 40px;
 .subtitulo-matrimonio {
   display: flex;
   justify-content: center;
+  font-size: 40px;
+  margin: 50px;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 768px) {

@@ -13,14 +13,20 @@ function NavSecundario() {
     const navRef = useRef(null);
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-        if (!isMenuOpen) {
-            navRef.current.classList.add('show');
+        if (window.innerWidth <= 768) {
+            setIsMenuOpen(!isMenuOpen);
+            if (!isMenuOpen) {
+                navRef.current.classList.add('responsive_nav_secundario');
+            } else {
+                navRef.current.classList.remove('responsive_nav_secundario');
+            }
         } else {
-            navRef.current.classList.remove('show');
+            navRef.current.classList.toggle('responsive_nav_large_secundario');
         }
     };
-
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav");
+    };
     const toggleDropdown = (dropdownName) => {
         setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);
     };
@@ -62,7 +68,6 @@ function NavSecundario() {
                                 <Link to="#vidaiglesia">Vida de la iglesia</Link>
                                 {activeDropdown === "vidaiglesia" && (
                                     <ul className="dropdown-menu">
-                                        
                                         <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
                                         <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
                                         <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>

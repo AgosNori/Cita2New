@@ -93,18 +93,18 @@ function App() {
             <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic /> </>} />
             <Route path="nosotros" element={<><Nav/><NavBorde /><Nosotros /><FooterMusic /></>} />
             <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
-            <Route path="hombres" element={<><NavSecundario /><NavBorde /><Hombres /><FooterMusic /></>} />
+            <Route path="hombres" element={<><NavBorde /><Hombres /><FooterMusic /></>} />
             <Route path="ministerios" element={<><NavSecundario /><Ministerios /><FooterMusic /></>} />
-            <Route path="mujeres" element={<><NavSecundario /><NavBorde /><Mujeres /><FooterMusic /></>} />
+            <Route path="mujeres" element={<><NavBorde /><Mujeres /><FooterMusic /></>} />
             <Route path="nav" element={<NavBorde />} />
             <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />
             <Route path="calendario" element={<><NavSecundario /><NavBorde /><Calendario /><FooterMusic /></>} />
             <Route path="campamento" element={<><NavSecundario /><NavBorde /><Campamento campamentoImages={campamentoImages} /><FooterMusic /></>} />
             <Route path="cardnovedades" element={<><NavSecundario /><NavBorde /><CardNovedades /><FooterMusic /></>} />
-            <Route path="citakids" element={<><NavBorde /><NavSecundario /><Citakids images={citakidsImages} /><FooterMusic /></>} />
+            <Route path="citakids" element={<><NavBorde /><Citakids images={citakidsImages} /><FooterMusic /></>} />
             <Route path="galeria" element={<><NavSecundario /><Gallery /><FooterMusic /></>} />
-            <Route path="jovenes" element={<><NavSecundario /><NavBorde /><Jovenes images={jovenesImages} /><FooterMusic /></>} />
-            <Route path="matrimonios" element={<><NavSecundario /><NavBorde /><Matrimonios /><FooterMusic /></>} />
+            <Route path="jovenes" element={<><NavBorde /><Jovenes images={jovenesImages} /><FooterMusic /></>} />
+            <Route path="matrimonios" element={<><NavBorde /><Matrimonios /><FooterMusic /></>} />
             <Route path="musicos" element={<><NavSecundario /><Musicos images={musicosImages} /><NavBorde /><FooterMusic /></>} />
             <Route path="soynuevo" element={<><NavSecundario /><NavBorde /><SoyNuevo /><FooterMusic /></>} />
             <Route path='navprincipal' element={<Nav />} />

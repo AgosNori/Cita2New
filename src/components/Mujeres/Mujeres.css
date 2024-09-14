@@ -1,38 +1,13 @@
-.fotoMujeres {
-    margin-top: -0px;
-    height: 80vh;
-    background: url('C:\Users\agosn\citaNuevo\citanew\public\flores.jpg') no-repeat;
+.NavPrincipalMujeres {
+
+
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\public\flores.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-
+    height: 750px;
 }
 
-.fotoMujeres .versiculo {
-    color: white;
-    font-size: 20px;
 
-}
-
-.parallaxMujeres .descMujeres {
-    font-weight: 200;
-    margin: 70px auto;
-    font-size: 30px;
-}
-
-.parallaxMujeres {
-    padding: 20% 0;
-    width: 80%;
-    display: flex;
-}
-
-.parallaxMujeres h2 {
-    font-size: 60px;
-    color: #ffffff;
-    text-align: end;
-    font-weight: 500;
-    letter-spacing: 3px;
-}
 
 .cardsInfo {
     width: 100%;
@@ -230,38 +205,6 @@
     font-weight: 200;
     margin: 70px auto;
     font-size: 30px;
-}
-
-.parallaxMujeres {
-    padding: 20% 0;
-    width: 80%;
-    display: flex;
-}
-
-.parallaxMujeres h1 {
-    font-size: 60px;
-    color: #ffffff;
-    text-align: end;
-    font-weight: 500;
-    letter-spacing: 3px;
-}
-
-.cardsInfo {
-    width: 100%;
-    height: auto;
-    background-color: #857F74;
-    display: flex;
-    justify-content: center;
-}
-
-.CardWomen .cardsInfo .fondoCard {
-    margin: auto;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    align-items: center;
-
 }
 
 .discipuladosMuj {
@@ -431,6 +374,10 @@
         flex-direction: column;
     }
 
+    .cardsInfo .fondoCard {
+        height: 500px;
+    }
+
     .card2 {
         flex-direction: column;
 
@@ -439,29 +386,44 @@
     .CardWomen .cardsInfo,
     .CardWomen .img {
         width: 100%;
+        height: auto;
+
     }
 
-    .cardMujeres {
-        margin-top: 20px;
-    }
+
 
     .parallax-inner-Matrimonios h2 {
         margin: 120px 40px;
         font-size: 40px;
+    }
+
+    .lugarHorarioMujeres {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .CardWomen {
         flex-direction: column;
-      
+
     }
+
+    .cardsInfo .fondoCard {
+        height: 500px;
+    }
+
 
     .card2 {
         flex-direction: column;
-       
+
     }
 
-
+    .lugarHorarioMujeres {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
 
 }

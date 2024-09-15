@@ -91,7 +91,7 @@ function App() {
         <>
           <Routes>
             <Route path="/" element={<><Nav /> <NavBorde /><Home /><FooterMusic /> </>} />
-            <Route path="nosotros" element={<><Nav/><NavBorde /><Nosotros /><FooterMusic /></>} />
+            <Route path="nosotros" element={<><NavBorde /><Nosotros /><FooterMusic /></>} />
             <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
             <Route path="hombres" element={<><NavBorde /><Hombres /><FooterMusic /></>} />
             <Route path="ministerios" element={<><NavSecundario /><Ministerios /><FooterMusic /></>} />
@@ -108,7 +108,7 @@ function App() {
             <Route path="musicos" element={<><NavSecundario /><Musicos images={musicosImages} /><NavBorde /><FooterMusic /></>} />
             <Route path="soynuevo" element={<><NavSecundario /><NavBorde /><SoyNuevo /><FooterMusic /></>} />
             <Route path='navprincipal' element={<Nav />} />
-            <Route path='reuniones' element={<><NavSecundario /><NavBorde /><Reuniones /><FooterMusic /></>} />
+            <Route path='reuniones' element={<><NavBorde /><Reuniones /><FooterMusic /></>} />
           </Routes>
         </>
 

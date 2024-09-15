@@ -1,57 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.headerNosotros {
-    background-color: #2a2a2a;
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    padding: 40px;
-    height: 100px;
-
-}
+.NavPrincipalNosotros {
 
 
-.tituloNosotros {
-    position: relative;
-    margin-top: -15px;
-    height: 35px;
-}
-
-.tituloNosotros .ttNosotros {
-    font-family: "Raleway", sans-serif;
-
-
-    font-weight:250;
-
-    display: flex;
-    font-size: 50px;
-    justify-content: center;
-    margin: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 52%, rgba(17, 17, 17, 1) 56%, rgba(0, 0, 0, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    height: 35px;
-
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\public\portada.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
 }
 
 .descripcion {
     width: 100%;
+    background-color: #2a2a2a;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
 }
 
 .descripcion p {
     text-align: justify;
-    margin: 30px;
+    margin: 0 auto;
 
     width: 80%;
 
 }
+
 
 .fotoPastor {
     border-radius: 50px 0 50px 0;
@@ -73,7 +49,7 @@
 
 .textoMision {
     width: 45%;
-    margin:80px;
+    margin: 80px;
 }
 
 .textoMision p {
@@ -81,24 +57,6 @@
     margin: 30px;
 
 }
-
-.foticos {
-    display: flex;
-}
-
-.foticos img {
-    border-radius: 40px;
-}
-
-.foto1 {
-    position: relative;
-}
-
-.foto2 {
-    position: absolute;
-    margin: 220px 150px;
-}
-
 
 .ministeriosBoton {
     margin: 300px;
@@ -210,4 +168,73 @@
 
 .irMinis {
     margin: 100px 390px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .descripcion {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+
+    .cuerpoMision {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .cuerpoMision .textoMision {
+        width: auto;
+    }
+
+    .cuerpoMision .fotico {
+        display: flex;
+
+    }
+
+    .cuerpoMision .fotico .imagenMision {
+        width: 100%;
+
+    }
+
+
+    .ministeriosBoton {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        margin: 50px auto;
+        margin-bottom: 40px;
+    }
+
+    .irMinis {
+
+        margin: 30px auto;
+    }
+
+    .imagenPastor {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    .descripcion {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textoDescrip {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .imagenPastor {
+        width: auto;
+    }
+
+
+
 }

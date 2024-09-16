@@ -98,14 +98,14 @@ function App() {
             <Route path="mujeres" element={<><NavBorde /><Mujeres /><FooterMusic /></>} />
             <Route path="nav" element={<NavBorde />} />
             <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />
-            <Route path="calendario" element={<><NavSecundario /><NavBorde /><Calendario /><FooterMusic /></>} />
-            <Route path="campamento" element={<><NavSecundario /><NavBorde /><Campamento campamentoImages={campamentoImages} /><FooterMusic /></>} />
+            <Route path="calendario" element={<><NavBorde /><Calendario /><FooterMusic /></>} />
+            <Route path="campamento" element={<><NavBorde /><Campamento campamentoImages={campamentoImages} /><FooterMusic /></>} />
             <Route path="cardnovedades" element={<><NavSecundario /><NavBorde /><CardNovedades /><FooterMusic /></>} />
             <Route path="citakids" element={<><NavBorde /><Citakids images={citakidsImages} /><FooterMusic /></>} />
             <Route path="galeria" element={<><NavSecundario /><Gallery /><FooterMusic /></>} />
             <Route path="jovenes" element={<><NavBorde /><Jovenes images={jovenesImages} /><FooterMusic /></>} />
             <Route path="matrimonios" element={<><NavBorde /><Matrimonios /><FooterMusic /></>} />
-            <Route path="musicos" element={<><NavSecundario /><Musicos images={musicosImages} /><NavBorde /><FooterMusic /></>} />
+            <Route path="musicos" element={<><Musicos images={musicosImages} /><NavBorde /><FooterMusic /></>} />
             <Route path="soynuevo" element={<><NavSecundario /><NavBorde /><SoyNuevo /><FooterMusic /></>} />
             <Route path='navprincipal' element={<Nav />} />
             <Route path='reuniones' element={<><NavBorde /><Reuniones /><FooterMusic /></>} />

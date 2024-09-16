@@ -1,43 +1,100 @@
-import { useState } from 'react';
+
 import Carousel from 'react-bootstrap/Carousel';
 import PropTypes from "prop-types";
 import './Musicos.css';
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState, useRef, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Musicos({ images }) {
-    const [dropdownOpenMinisterios, setDropdownOpenMinisterios] = useState(false);
-    const [dropdownOpenVidaIglesia, setDropdownOpenVidaIglesia] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [activeDropdown, setActiveDropdown] = useState(null);
 
-    // const handleSearch = (searchTerm) => {
-    //   // Realizar la lógica de búsqueda aquí
-    //   console.log('Búsqueda realizada:', searchTerm);
-    //   // Ejemplo: setSearchResults(resultadosDeLaBusqueda);
-    // };
+    const navRef = useRef(null);
 
-    const dropdownMinisterios = () => {
-        setDropdownOpenMinisterios(!dropdownOpenMinisterios);
+    const toggleMenu = () => {
+        if (window.innerWidth <= 768) {
+            setIsMenuOpen(!isMenuOpen);
+            if (!isMenuOpen) {
+                navRef.current.classList.add('responsive_nav_principal');
+            } else {
+                navRef.current.classList.remove('responsive_nav_principal');
+            }
+        } else {
+            navRef.current.classList.toggle('responsive_nav_large');
+        }
     };
-
-    const dropdownVidaIglesia = () => {
-        setDropdownOpenVidaIglesia(!dropdownOpenVidaIglesia);
+    const showNavbar = () => {
+        navRef.current.classList.toggle("responsive_nav");
     };
+    const toggleDropdown = (dropdownName) => {
+        setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);
+    };
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+        AOS.refresh();
+    }, []);
     return (
         <div className="contMusicos">
-            <section className='video-seccion-musicos'>
-                <div className="video-musicos">
-                    {/* <iframe
-                        width="900"
-                        height="500"
-                        src="public\img\imagenes\introCita.mp4"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe> */}
-                    <div className="drop1-musicos">
-                        <h2 className='ttMusicos'>Desarrollá tu don al servicio de Dios!</h2>
-                        <img className="imagen-musicos" src="./bannerMusicos.jpeg"></img>
+            < div className="NavPrincipalMusicos">
+                <header className="headerNavP">
+                    <div className="nav">
+                        <div data-aos="fade-right">
+                            <img className="logoNavP" src='./Logo RGB BLANCO.png' alt="Logo" />
+                        </div>
+                        <nav ref={navRef} className={`navNavP ${isMenuOpen ? "responsive_nav_principal" : ""}`}>
+                            <div data-aos="fade-left">
+                                <ul>
+                                    <li>
+                                        <Link to="/">Home</Link>
+                                    </li>
+                                    <li className="dropdown" onMouseEnter={() => toggleDropdown("ministerios")} onMouseLeave={() => toggleDropdown(null)}>
+                                        <Link to="#ministerios">Ministerios</Link>
+                                        {activeDropdown === "ministerios" && (
+                                            <ul className="dropdown-menu">
+                                                <li><Link to="/hombres" rel="noopener noreferrer">Discipulado de hombres</Link></li>
+                                                <li><Link to="/mujeres" rel="noopener noreferrer">Discipulado de mujeres</Link></li>
+                                                <li><Link to="/matrimonios" rel="noopener noreferrer">Matrimonios</Link></li>
+                                                <li><Link to="/citakids" rel="noopener noreferrer">Cita kids</Link></li>
+                                                <li><Link to="/jovenes" rel="noopener noreferrer">Jovenes</Link></li>
+                                                <li><Link to="/reuniones" rel="noopener noreferrer">Reuniones generales</Link></li>
+                                            </ul>
+                                        )}
+                                    </li>
+                                    <li>
+                                        <Link to="/nosotros" rel="noopener noreferrer">Nosotros</Link>
+
+                                    </li>
+                                    <li className="dropdown" onMouseEnter={() => toggleDropdown("vidaiglesia")} onMouseLeave={() => toggleDropdown(null)}>
+                                        <Link to="#vidaiglesia">Vida de la iglesia</Link>
+                                        {activeDropdown === "vidaiglesia" && (
+                                            <ul className="dropdown-menu">
+                                                {/*} <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>*/}
+                                                <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
+                                                <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
+                                                <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>
+                                                <li><Link to="/galeria" rel="noopener noreferrer">Galeria</Link></li>
+                                            </ul>
+                                        )}
+                                    </li>
+                                    <li>
+                                        <Link to="/soynuevo" rel="noopener noreferrer">Soy Nuevo</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contacto" rel="noopener noreferrer">Contacto</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
 
-                </div>
-            </section>
+                    <button className="nav-btn-principal" onClick={toggleMenu}>
+                        {isMenuOpen ? <FaTimes /> : <FaBars />}
+                    </button>
+                </header>
+            </div>
+          
             <br></br>
             <section className='paragraphs-musicos'>
                 <div className="paragraphs">

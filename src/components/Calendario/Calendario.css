@@ -1,3 +1,11 @@
+
+.NavPrincipalCalendario {
+    background-image: url("C:\Users\agosn\citaNuevo\citanew\public\calendario.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
 .calendario-container {
 	
 	display: flex;

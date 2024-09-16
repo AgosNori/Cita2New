@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+
+.NavPrincipalMusicos {
+  background-image: url("C:\Users\agosn\citaNuevo\citanew\public\bateria.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+
 .contMusicos {
   width: 100%;
 }

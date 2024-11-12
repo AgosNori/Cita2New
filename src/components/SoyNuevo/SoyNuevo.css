@@ -1,3 +1,12 @@
+
+.NavPrincipalSoyNuevo {
+
+
+	background-image: url("C:\Users\agosn\citaNuevo\citanew\public\sembrar.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 750px;
+}
 .tarjetitaNuevo {
     display: flex;
     justify-content: center;
@@ -71,6 +80,9 @@ h3 {
     border-radius: 10px;
     overflow: hidden;
 }
+.cardSoyNuevo:hover{
+    transform: scale(1.05);
+}
 
 .cardSoyNuevo img {
     width: 100%;
@@ -97,20 +109,7 @@ h3 {
 
 }
 
-.bienvenida {
-    margin-top: -0px;
-    height: 80vh;
-    background: url('./sembrar.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 
-.parallax-innerBienvenida {
-    padding: 20% 0;
-    width: 50%;
-    display: flex;
-}
 
 .ttBienv {
     position: absolute;
@@ -123,4 +122,31 @@ h3 {
     font-size: 2rem;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 979px) {
+    .tarjetitaNuevo{
+        width: 100%;
+        margin: 0;
+    }
+    .frm-contacto{
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tarjetitaNuevo{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+    .tarjetitaNuevo{
+        width: 100%;
+        margin: 0;
+    }
 }

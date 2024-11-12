@@ -1,12 +1,18 @@
 import './home.css';
 import { Link } from 'react-router-dom';
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Home() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+        AOS.refresh();
+    }, []);
     return (
         <div className='homePage'>
 
             <div className='presentacion'>
-                <h1 className='ttPresen'> Bienvenidos a la Iglesia de la Familia</h1>
+                <h1 className='ttPresen' data-aos="fade-right"> Bienvenidos a la Iglesia de la Familia</h1>
                 <div className='cardBack'>
                 </div>
                 <div className='cardpresen'>
@@ -15,7 +21,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className='botones'>
+            <div className='botones' data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
 
 
                 <Link to="https://maps.app.goo.gl/6aEVEzPrp6AkrsKYA" className='bttHome'>
@@ -117,9 +124,10 @@ function Home() {
                     <h3 className='nove'>Novedades</h3>
                 </div>
 
-                <div className="card-container">
+                <div className="card-container" >
                     <section className="articles">
-                        <article>
+                        <article data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">
                             <div className="article-wrapper">
                                 <figure>
                                     <img src="./Matri1.jpg" alt="" />
@@ -132,7 +140,8 @@ function Home() {
                                 </div>
                             </div>
                         </article>
-                        <article>
+                        <article data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">
                             <div className="article-wrapper">
                                 <figure>
                                     <img src="./Galeria2.jpg" alt="" />
@@ -146,7 +155,8 @@ function Home() {
                                 </div>
                             </div>
                         </article>
-                        <article>
+                        <article data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">
                             <div className="article-wrapper">
                                 <figure>
                                     <img src="./Galeria9.jpg" alt="" />
@@ -170,7 +180,7 @@ function Home() {
             <div className='AreasTrabajo'>
                 <div className="infoMinisterios">
                     <p className='ppMinis'>Te invitamos a conocer a nuestras areas de trabajo</p>
-                    <Link to="/ministerios" className="botoncito">
+                    <Link to="/ministerios" className="botoncito" data-aos="zoom-in-right">
                         <span className='more'>Más información</span>
                         <svg width="13px" height="10px" viewBox="0 0 13 10">
                             <path d="M1,5 L11,5"></path>
@@ -185,7 +195,7 @@ function Home() {
                     <h2 className='canalesTitulo'>Nuestros canales de transmisión</h2>
                 </div>
                 <div className="canales">
-                    <div className="canales-ver">
+                    <div className="canales-ver" data-aos="zoom-in-right">
                         <img src="./iconmonstr-video-camera-12-240.png" className="" width="90px"></img>
                         <h6 className='descCanales'> Volve a revivir la palabra por nuestro canal.</h6>
 
@@ -193,7 +203,7 @@ function Home() {
                             Ver
                         </Link>
                     </div>
-                    <div className="canales-ver">
+                    <div className="canales-ver" data-aos="zoom-in-left">
                         <img src="./galeria.png" className=""></img>
                         <h6 className='descCanales'>Nuestra Galería de imágenes.</h6>
                         <Link to="/galeria" className="btn-ver">

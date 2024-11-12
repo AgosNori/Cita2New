@@ -94,7 +94,7 @@ function App() {
             <Route path="nosotros" element={<><NavBorde /><Nosotros /><FooterMusic /></>} />
             <Route path="contacto" element={<><NavBorde /> <Contacto /></>} />
             <Route path="hombres" element={<><NavBorde /><Hombres /><FooterMusic /></>} />
-            <Route path="ministerios" element={<><NavSecundario /><Ministerios /><FooterMusic /></>} />
+            <Route path="ministerios" element={<><Ministerios /><FooterMusic /></>} />
             <Route path="mujeres" element={<><NavBorde /><Mujeres /><FooterMusic /></>} />
             <Route path="nav" element={<NavBorde />} />
             <Route path="formcampa" element={<><NavBorde /> <FormCampa /></>} />
@@ -106,7 +106,7 @@ function App() {
             <Route path="jovenes" element={<><NavBorde /><Jovenes images={jovenesImages} /><FooterMusic /></>} />
             <Route path="matrimonios" element={<><NavBorde /><Matrimonios /><FooterMusic /></>} />
             <Route path="musicos" element={<><Musicos images={musicosImages} /><NavBorde /><FooterMusic /></>} />
-            <Route path="soynuevo" element={<><NavSecundario /><NavBorde /><SoyNuevo /><FooterMusic /></>} />
+            <Route path="soynuevo" element={<><NavBorde /><SoyNuevo /><FooterMusic /></>} />
             <Route path='navprincipal' element={<Nav />} />
             <Route path='reuniones' element={<><NavBorde /><Reuniones /><FooterMusic /></>} />
           </Routes>

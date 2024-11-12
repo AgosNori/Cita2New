@@ -39,6 +39,9 @@ function Hombres() {
                     <div className="nav">
                         <div data-aos="fade-right">
                             <img className="logoNavP" src='./Logo RGB BLANCO.png' alt="Logo" />
+                            <div className="overlay-text">
+                                <h2 className='descrText'>Bienvenido al Discipulado de Hombres</h2>
+                            </div>
                         </div>
                         <nav ref={navRef} className={`navNavP ${isMenuOpen ? "responsive_nav_principal" : ""}`}>
                             <div data-aos="fade-left">

@@ -1,19 +1,25 @@
 import './footer.css'
-
+import {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function FooterMusic() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+        AOS.refresh();
+    }, []);
     return (
 
         <footer className="footer-musicos">
             <div className="footer-musica">
-                <div className="logoCitaFooter">
+                <div className="logoCitaFooter" data-aos="zoom-in">
                     <img src="./Logo RGB BLANCO.png" alt="Cita Logo" className='logoF' />
                 </div>
                 <div className="musica-links">
-                    <a className='aFooter' href="/cardnovedades">Novedades</a>
-                    <a className='aFooter' href="/reuniones">Reuniones</a>
-                    <a className='aFooter' href="/campamento">Campamentos</a>
-                    <a className='aFooter' href="/">Home</a>
-                    <a className='aFooter' href="/citakids">Cita Kids</a>
+                    
+                    <a className='aFooter' href="reuniones">Reuniones</a>
+                    <a className='aFooter' href="campamento">Campamentos</a>
+                    <a className='aFooter' href="">Home</a>
+                    <a className='aFooter' href="citakids">Cita Kids</a>
                 </div>
                 <div className="musica-social">
                     <div className='iconos'>
@@ -26,9 +32,9 @@ function FooterMusic() {
                 </div>
 
                 <div className="musica-links">
-                    <a className='aFooter' href="/ministerios">Ministerios</a>
+                    <a className='aFooter' href="ministerios">Ministerios</a>
                     <a className='aFooter' href="http://citaconlavida.com.ar" target='_blank'>Casa Central</a>
-                    <a className='aFooter' href="/calendario" target='_blank'>Calendario</a>
+                    <a className='aFooter' href="calendario" target='_blank'>Calendario</a>
                     <a className='aFooter' href="https://institutocitaconlavida.com" target='_blank'>Instituto Biblico</a>
                     <a className='aFooter' href="http://citaconlavida.com.ar/radiohtml.html" target='_blank'>Radio Amistad</a>
                     <a className='aFooter' href="https://www.youtube.com/@citaconlavidamontecristo3858" target='_blank'>Canal de YouTube</a>

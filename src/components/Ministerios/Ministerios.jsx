@@ -1,5 +1,7 @@
 import "./Ministerios.css";
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState, useRef, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -21,22 +23,108 @@ function Ministerios() {
             [ministerio]: !prevDescriptions[ministerio],
         }));
     }
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [activeDropdown, setActiveDropdown] = useState(null);
+  
+    const navRef = useRef(null);
+  
+    const toggleMenu = () => {
+      if (window.innerWidth <= 768) {
+        setIsMenuOpen(!isMenuOpen);
+        if (!isMenuOpen) {
+          navRef.current.classList.add('responsive_nav_principal');
+        } else {
+          navRef.current.classList.remove('responsive_nav_principal');
+        }
+      } else {
+        navRef.current.classList.toggle('responsive_nav_large');
+      }
+    };
+    const showNavbar = () => {
+      navRef.current.classList.toggle("responsive_nav");
+    };
+    const toggleDropdown = (dropdownName) => {
+      setActiveDropdown(activeDropdown === dropdownName ? null : dropdownName);
+    };
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+        AOS.refresh();
+      }, []);
 
     return (
         <>
 
             <div className="cont-ministerios">
-                <div className="fotoprincipalMinis">
+                {/* <div className="fotoprincipalMinis">
                     <div className="parallax-innerMinis">
                         <h2>Estas son las diferentes áreas de trabajo donde la iglesia Cita con la Vida Monte Cristo cuenta con un sólido equipo de colaboradores capacitados y adaptados para dar respuesta a las necesidades. </h2>
                     </div>
+                </div> */}
+                < div className="NavPrincipalMinisterios">
+                    <header className="headerNavP">
+                        <div className="nav">
+                            <div data-aos="fade-right">
+                                <img className="logoNavP" src='./Logo RGB BLANCO.png' alt="Logo" />
+                            </div>
+                            <nav ref={navRef} className={`navNavP ${isMenuOpen ? "responsive_nav_principal" : ""}`}>
+                                <div data-aos="fade-left">
+                                    <ul>
+                                        <li>
+                                            <Link to="/">Home</Link>
+                                        </li>
+                                        <li className="dropdown" onMouseEnter={() => toggleDropdown("ministerios")} onMouseLeave={() => toggleDropdown(null)}>
+                                            <Link to="#ministerios">Ministerios</Link>
+                                            {activeDropdown === "ministerios" && (
+                                                <ul className="dropdown-menu">
+                                                    <li><Link to="/hombres" rel="noopener noreferrer">Discipulado de hombres</Link></li>
+                                                    <li><Link to="/mujeres" rel="noopener noreferrer">Discipulado de mujeres</Link></li>
+                                                    <li><Link to="/matrimonios" rel="noopener noreferrer">Matrimonios</Link></li>
+                                                    <li><Link to="/citakids" rel="noopener noreferrer">Cita kids</Link></li>
+                                                    <li><Link to="/jovenes" rel="noopener noreferrer">Jovenes</Link></li>
+                                                    <li><Link to="/reuniones" rel="noopener noreferrer">Reuniones generales</Link></li>
+                                                </ul>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <Link to="/nosotros" rel="noopener noreferrer">Nosotros</Link>
+
+                                        </li>
+                                        <li className="dropdown" onMouseEnter={() => toggleDropdown("vidaiglesia")} onMouseLeave={() => toggleDropdown(null)}>
+                                            <Link to="#vidaiglesia">Vida de la iglesia</Link>
+                                            {activeDropdown === "vidaiglesia" && (
+                                                <ul className="dropdown-menu">
+                                                    {/*} <li><Link to="/avisos" rel="noopener noreferrer">Avisos importantes</Link></li>*/}
+                                                    <li><Link to="/calendario" rel="noopener noreferrer">Calendario</Link></li>
+                                                    <li><Link to="/campamento" rel="noopener noreferrer">Campamentos</Link></li>
+                                                    <li><Link to="/musicos" rel="noopener noreferrer">Escuela de musicos</Link></li>
+                                                    <li><Link to="/galeria" rel="noopener noreferrer">Galeria</Link></li>
+                                                </ul>
+                                            )}
+                                        </li>
+                                        <li>
+                                            <Link to="/soynuevo" rel="noopener noreferrer">Soy Nuevo</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/contacto" rel="noopener noreferrer">Contacto</Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <button className="nav-btn-principal" onClick={toggleMenu}>
+                            {isMenuOpen ? <FaTimes /> : <FaBars />}
+                        </button>
+                    </header>
                 </div>
+
+
                 <div className="tituloMinisterios">
                     <h2 className="minisTT">Nuestros Ministerios</h2>
                 </div>
 
                 <div className="referente-minist" data-aos="fade-up" data-aos-duration="1500">
-                    <img src="public\Pastor.jpg" alt="" className="minis-image" />
+                    <img src="./Hombres.jpg" alt="Encargado del discipulado de hombres" className="minis-image" />
                     <div className="vertical-line"></div>
                     <div className="referente-ministerio">
                         <h2 className="ref-name">Discipulado de Hombres</h2>
@@ -62,7 +150,7 @@ function Ministerios() {
                 </div>
                 <div className="referente-minist" data-aos="fade-up"
                     data-aos-duration="1500">
-                    <img src="public\Pastor.jpg" alt="" className="minis-image" />
+                    <img src="./Pastores.jpg" alt="" className="minis-image" />
                     <div className="vertical-line"></div>
 
                     <div className="referente-ministerio">
@@ -117,7 +205,7 @@ function Ministerios() {
                 </div>
                 <div className="referente-minist" data-aos="fade-up"
                     data-aos-duration="1500">
-                    <img src="public\Pastor.jpg" alt="" className="minis-image" />
+                    <img src="./Ministerios4.jpg" alt="" className="minis-image" />
                     <div className="vertical-line"></div>
                     <div className="referente-ministerio">
                         <h2 className="ref-name">Ministerio de Jovenes</h2>
@@ -138,7 +226,7 @@ function Ministerios() {
                 </div>
                 <div className="referente-minist" data-aos="fade-up"
                     data-aos-duration="1500">
-                    <img src="public\Pastor.jpg" alt="" className="minis-image" />
+                    <img src="./Ministerios4.jpg" alt="" className="minis-image" />
                     <div className="vertical-line"></div>
                     <div className="referente-ministerio">
                         <h2 className="ref-name"> Ministerio de Pre y Ados</h2>
@@ -184,7 +272,7 @@ function Ministerios() {
                 </div>
                 <div className="referente-minist" data-aos="fade-up"
                     data-aos-duration="1500">
-                    <img src="public\Pastor.jpg" alt="" className="minis-image" />
+                    <img src="./adicciones.jpeg" alt="" className="minis-image" />
                     <div className="vertical-line"></div>
                     <div className="referente-ministerio">
                         <h2 className="ref-name"> Ministerio de Adicciones</h2>
@@ -200,7 +288,7 @@ function Ministerios() {
                         </div>
                     </div>
                 </div>
-                <div className="referente-minist" data-aos="zoom-in-down">
+                <div className="referente-minist" data-aos="fade-up">
                     <img src="public\Pastor.jpg" alt="" className="minis-image" />
                     <div className="vertical-line"></div>
                     <div className="referente-ministerio">

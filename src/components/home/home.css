@@ -165,11 +165,16 @@
     .ag-courses-item_title {
         font-size: 24px;
     }
+  
 }
 
 @media only screen and (max-width: 767px) {
     .ag-format-container {
         width: 96%;
+    }
+    .botones {
+        flex-direction: column; /* Cambia de fila a columna */
+        align-items: center;
     }
 
 }
@@ -337,6 +342,13 @@ article:has(:hover, :focus) {
 
     .article-body .parrafo {
         display: none;
+    }
+    .botones{
+        display: flex;
+       
+    }
+    .botones button{
+        flex-wrap: wrap;
     }
 }
 
@@ -601,6 +613,8 @@ article:has(:hover, :focus) {
     .botones {
         gap: 40px;
         margin: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     
